@@ -1,0 +1,2692 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--Model Created from Reqode--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+    <model-identification modelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated">
+        <model-identification-field name="Application Name" partOfTag="true" value="Release2dot4_withoutTool"/>
+        <model-identification-field name="Application code version #" partOfTag="true" value="1.1"/>
+        <model-identification-field name="Application Function" partOfTag="true" value="Release2dot4_withoutTool_Test"/>
+        <model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+        <model-identification-field name="Created By" partOfTag="false" value="rgtmp_devapriya.pal"/>
+        <model-identification-field name="Created Date and Time" partOfTag="false" value="10 Nov 2026 18:46:54"/>
+        <model-identification-field name="Updated By" partOfTag="false" value="devapriya.pal"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="11 Nov 2026 20:59:23"/>
+        <model-identification-field name="Application Sub Function" partOfTag="true" value="GenAI_generated"/>
+        <model-identification-field name="Test Stage" partOfTag="false" value=""/>
+        <model-identification-field name="Criticality" partOfTag="false" value=""/>
+        <model-identification-field name="Project" partOfTag="false" value=""/>
+        <model-identification-field name="Epic" partOfTag="false" value=""/>
+        <model-identification-field name="Feature" partOfTag="false" value=""/>
+        <model-identification-field name="User Story" partOfTag="false" value=""/>
+        <model-identification-field name="Git Comments" partOfTag="false" value=""/>
+        <model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+    </model-identification>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="แหล่งที่มาของใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="พอร์ทัลรัฐบาลอียิปต์" neg-value="false" weight="1"/>
+        <requirement ID="Thai_1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ตัวกลางรับส่งใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="edicom" neg-value="false" weight="1"/>
+        <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
+        <requirement ID="Thai_1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="เส้นทางการเชื่อมต่อ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ผ่าน_edicom" neg-value="false" weight="1"/>
+        <value name="เชื่อมต่อโดยตรง_ไม่รองรับ" neg-value="true" weight="1"/>
+        <requirement ID="Thai_1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีเชื่อมต่อกับ_basware" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="as2" neg-value="false" weight="1"/>
+        <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
+        <requirement ID="Thai_1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ปลายทางเอกสาร" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="เครือข่าย_basware" neg-value="false" weight="1"/>
+        <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
+        <requirement ID="Thai_1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รหัสบริษัท" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="eg" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเทศผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="eg" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินในใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="eur" neg-value="false" weight="1"/>
+        <value name="usd" neg-value="false" weight="1"/>
+        <value name="egp" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินบัญชีธนาคารผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="สกุลเงินแข็ง" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สิทธิ์รับชำระเป็นสกุลเงินแข็ง" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ได้รับสิทธิ์จากรัฐบาล" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="egp" neg-value="false" weight="1"/>
+        <value name="eur" neg-value="false" weight="1"/>
+        <value name="usd" neg-value="false" weight="1"/>
+        <value name="ว่างเปล่า" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="จำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="จำนวนเงินตามใบแจ้งหนี้" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การจัดการช่องสกุลเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="คัดลอกจำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="ผู้ใช้ลบค่า" neg-value="false" weight="1"/>
+        <value name="ผู้ใช้ป้อนค่า" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินที่ใช้หักบัญชีใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="สกุลเงินในใบแจ้งหนี้" neg-value="false" weight="1"/>
+        <value name="สกุลเงินการชำระเงิน" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การจัดการยอดคงเหลือในบัญชีผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ไม่มียอดคงเหลือในสกุลเงินเอกสาร" neg-value="false" weight="1"/>
+        <value name="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค" neg-value="false" weight="1"/>
+        <requirement ID="Thai_2"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ระบบที่ใช้ชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="core" neg-value="false" weight="1"/>
+        <value name="mxp" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทผู้รับเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ผู้ขายที่มีบัญชีใน_core" neg-value="false" weight="1"/>
+        <value name="ผู้ขายที่ไม่มีบัญชีใน_core" neg-value="false" weight="1"/>
+        <value name="พนักงาน" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินที่ขอรับ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="สกุลเงินต่างประเทศ" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สถานะการอนุมัติ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="อนุมัติแล้ว" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ขั้นตอนการขอเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ขอเงินสดจากแคชเชียร์" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ผู้ใช้ทางธุรกิจ" neg-value="false" weight="1"/>
+        <value name="พนักงาน" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ช่องทางบันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="แอป_fiori" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับผิดชอบการบันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="rtr" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บัญชีที่ใช้บันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="บัญชีพักชำระเงินเฉพาะ" neg-value="false" weight="1"/>
+        <value name="บัญชีพักสำหรับ_mxp" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทเอกสารสำหรับเคลียร์ยอด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ใบแจ้งหนี้ผู้ขาย" neg-value="false" weight="1"/>
+        <value name="เอกสารที่ไม่ใช่ใบแจ้งหนี้_ka" neg-value="false" weight="1"/>
+        <value name="ไฟล์บัญชี_mxp" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับผิดชอบการเคลียร์ยอด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ptp" neg-value="false" weight="1"/>
+        <value name="rtr" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีเคลียร์ยอดผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="เคลียร์ด้วยตนเอง" neg-value="false" weight="1"/>
+        <value name="เคลียร์ยอดบัญชี_gl" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บัญชีสำหรับกระทบยอดกรณีไม่มีบัญชีผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="บัญชีแยกประเภทเป้าหมาย" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ข้อความรายการ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="หมวดหมู่ค่าใช้จ่าย" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="หลักฐานการใช้เงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ใบเสร็จรับเงิน" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การคืนเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="คืนเงินให้แคชเชียร์" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการเงินสดที่คืน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="รายการรับเข้า" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้ที่มองเห็นข้อมูลการเบิกเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ผู้อนุมัติ" neg-value="false" weight="1"/>
+        <value name="แคชเชียร์" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนเงินที่นำส่งในไฟล์บัญชี" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="จำนวนเงินที่มีใบเสร็จรองรับ" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="เกณฑ์ควบคุมการใช้เงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="กำหนดเกณฑ์ในแอป_fiori" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ระบบตรวจสอบรายการ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ตรวจสอบใน_s4hana" neg-value="false" weight="1"/>
+        <requirement ID="Thai_3"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบแบบฟอร์ม_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="เทมเพลตตามไฟล์กำหนดค่า_sap_core" neg-value="false" weight="1"/>
+        <requirement ID="Thai_4"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="องค์ประกอบแบบฟอร์ม_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="โลโก้" neg-value="false" weight="1"/>
+        <value name="ข้อกำหนดและเงื่อนไข" neg-value="false" weight="1"/>
+        <value name="ข้อความส่วนท้าย" neg-value="false" weight="1"/>
+        <value name="ข้อความใบแจ้งหนี้ที่ส่ง" neg-value="false" weight="1"/>
+        <requirement ID="Thai_4"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบผลลัพธ์_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="อีเมล_และ_pdf" neg-value="false" weight="1"/>
+        <requirement ID="Thai_4"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนประเภทภาษีในใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ภาษีสองประเภทที่แตกต่างกัน" neg-value="false" weight="1"/>
+        <requirement ID="Thai_5"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีจัดการยอดใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="เพิ่มฟิลด์ภาษีหลายรายการใน_basware_หรือ_sap" neg-value="false" weight="1"/>
+        <value name="ผู้ใช้_opcoปรับยอดใบแจ้งหนี้ด้วยตนเอง" neg-value="false" weight="1"/>
+        <requirement ID="Thai_5"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบไฟล์การชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="xml" neg-value="false" weight="1"/>
+        <value name="mt101" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ธนาคารผู้รับไฟล์" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="bnp" neg-value="false" weight="1"/>
+        <value name="citi_bank" neg-value="false" weight="1"/>
+        <value name="commercial_international_bank" neg-value="false" weight="1"/>
+        <value name="credit_agricole" neg-value="false" weight="1"/>
+        <value name="emirates_nbd" neg-value="false" weight="1"/>
+        <value name="qnb" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_bnp" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="sepa" neg-value="false" weight="1"/>
+        <value name="ไม่ใช่_sepa" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_citi_bank" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินข้ามพรมแดน_574_cbft" neg-value="false" weight="1"/>
+        <value name="การโอนเงินผ่านสมุดบัญชีอียิปต์_547" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภายในประเทศ_574_dft" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_commercial_international_bank" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_credit_agricole" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_emirates_nbd" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_qnb" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="การจ่ายเงินเดือน" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผลการรับไฟล์การชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="ธนาคารยอมรับไฟล์การชำระเงิน" neg-value="false" weight="1"/>
+        <requirement ID="Thai_6"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="อ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="ผ่าน_edicom" neg-value="false" weight="1"/>
+        <value name="เชื่อมต่อโดยตรง_ไม่รองรับ" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บ_basware" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
+        <value name="as2" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ท" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="eg" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ขาย" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="eg" neg-value="false" weight="1"/>
+        <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค" neg-value="false" weight="1"/>
+        <value name="เคลียร์ยอดบัญชี_gl" neg-value="false" weight="1"/>
+        <value name="บัญชีแยกประเภทเป้าหมาย" neg-value="false" weight="1"/>
+        <value name="สกุลเงินแข็ง" neg-value="false" weight="1"/>
+        <value name="ไม่มียอดคงเหลือในสกุลเงินเอกสาร" neg-value="false" weight="1"/>
+        <value name="เคลียร์ด้วยตนเอง" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ง" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="ได้รับสิทธิ์จากรัฐบาล" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="น" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="usd" neg-value="false" weight="1"/>
+        <value name="จำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="คัดลอกจำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="core" neg-value="false" weight="1"/>
+        <value name="ผู้ขายที่ไม่มีบัญชีใน_core" neg-value="false" weight="1"/>
+        <value name="รายการรับเข้า" neg-value="false" weight="1"/>
+        <value name="mt101" neg-value="false" weight="1"/>
+        <value name="ธนาคารยอมรับไฟล์การชำระเงิน" neg-value="false" weight="1"/>
+        <value name="eur" neg-value="false" weight="1"/>
+        <value name="จำนวนเงินตามใบแจ้งหนี้" neg-value="false" weight="1"/>
+        <value name="ผู้ใช้ลบค่า" neg-value="false" weight="1"/>
+        <value name="mxp" neg-value="false" weight="1"/>
+        <value name="ผู้ขายที่มีบัญชีใน_core" neg-value="false" weight="1"/>
+        <value name="xml" neg-value="false" weight="1"/>
+        <value name="ว่างเปล่า" neg-value="false" weight="1"/>
+        <value name="ผู้ใช้ป้อนค่า" neg-value="false" weight="1"/>
+        <value name="พนักงาน" neg-value="false" weight="1"/>
+        <value name="egp" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
+        <value name="สกุลเงินต่างประเทศ" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นสด" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="ขอเงินสดจากแคชเชียร์" neg-value="false" weight="1"/>
+        <value name="ผู้ใช้ทางธุรกิจ" neg-value="false" weight="1"/>
+        <value name="แอป_fiori" neg-value="false" weight="1"/>
+        <value name="rtr" neg-value="false" weight="1"/>
+        <value name="บัญชีพักชำระเงินเฉพาะ" neg-value="false" weight="1"/>
+        <value name="ใบเสร็จรับเงิน" neg-value="false" weight="1"/>
+        <value name="คืนเงินให้แคชเชียร์" neg-value="false" weight="1"/>
+        <value name="แคชเชียร์" neg-value="false" weight="1"/>
+        <value name="กำหนดเกณฑ์ในแอป_fiori" neg-value="false" weight="1"/>
+        <value name="พนักงาน" neg-value="false" weight="1"/>
+        <value name="บัญชีพักสำหรับ_mxp" neg-value="false" weight="1"/>
+        <value name="ผู้อนุมัติ" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ยอด" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="ใบแจ้งหนี้ผู้ขาย" neg-value="false" weight="1"/>
+        <value name="rtr" neg-value="false" weight="1"/>
+        <value name="ไฟล์บัญชี_mxp" neg-value="false" weight="1"/>
+        <value name="ptp" neg-value="false" weight="1"/>
+        <value name="เอกสารที่ไม่ใช่ใบแจ้งหนี้_ka" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="อความรายการ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="หมวดหมู่ค่าใช้จ่าย" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ม_po" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="เทมเพลตตามไฟล์กำหนดค่า_sap_core" neg-value="false" weight="1"/>
+        <value name="ข้อกำหนดและเงื่อนไข" neg-value="false" weight="1"/>
+        <value name="ข้อความส่วนท้าย" neg-value="false" weight="1"/>
+        <value name="ข้อความใบแจ้งหนี้ที่ส่ง" neg-value="false" weight="1"/>
+        <value name="โลโก้" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="_po" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="อีเมล_และ_pdf" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_bnp" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="ไม่ใช่_sepa" neg-value="false" weight="1"/>
+        <value name="sepa" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_citi_bank" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินผ่านสมุดบัญชีอียิปต์_547" neg-value="false" weight="1"/>
+        <value name="การโอนเงินข้ามพรมแดน_574_cbft" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภายในประเทศ_574_dft" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_commercial_international_bank" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_credit_agricole" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_emirates_nbd" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_qnb" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+        <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
+        <value name="การจ่ายเงินเดือน" neg-value="false" weight="1"/>
+    </attribute>
+    <negative-combination>
+        <attr-value attribute="เส้นทางการเชื่อมต่อ" value="เชื่อมต่อโดยตรง_ไม่รองรับ"/>
+    </negative-combination>
+    <requirements-collection>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="Thai_1" Restrictions=""/>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="Thai_2" Restrictions=""/>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="Thai_5" Restrictions=""/>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="Thai_6" Restrictions=""/>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="Thai_3" Restrictions=""/>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="" Keywords="" Ranking="2147483647" RequirementDescription="" RequirementId="Thai_4" Restrictions=""/>
+    </requirements-collection>
+    <coverage-reqs-sets defaultCoverageRequirementsSet="default">
+        <coverage-reqs-set description="" name="default">
+            <coverage-req>
+                <attribute name="แหล่งที่มาของใบแจ้งหนี้"/>
+                <attribute name="ตัวกลางรับส่งใบแจ้งหนี้"/>
+                <attribute name="เส้นทางการเชื่อมต่อ"/>
+                <attribute name="วิธีเชื่อมต่อกับ_basware"/>
+                <attribute name="ปลายทางเอกสาร"/>
+                <attribute name="รหัสบริษัท"/>
+                <attribute name="ประเทศผู้ขาย"/>
+                <attribute name="สกุลเงินในใบแจ้งหนี้"/>
+                <attribute name="สกุลเงินบัญชีธนาคารผู้ขาย"/>
+                <attribute name="สิทธิ์รับชำระเป็นสกุลเงินแข็ง"/>
+                <attribute name="สกุลเงินการชำระเงิน"/>
+                <attribute name="จำนวนเงินการชำระเงิน"/>
+                <attribute name="การจัดการช่องสกุลเงินการชำระเงิน"/>
+                <attribute name="สกุลเงินที่ใช้หักบัญชีใบแจ้งหนี้"/>
+                <attribute name="การจัดการยอดคงเหลือในบัญชีผู้ขาย"/>
+                <attribute name="ระบบที่ใช้ชำระเงิน"/>
+                <attribute name="ประเภทผู้รับเงิน"/>
+                <attribute name="สกุลเงินที่ขอรับ"/>
+                <attribute name="สถานะการอนุมัติ"/>
+                <attribute name="ขั้นตอนการขอเงินสด"/>
+                <attribute name="ผู้รับเงินสด"/>
+                <attribute name="ช่องทางบันทึกรายการเงินสด"/>
+                <attribute name="ผู้รับผิดชอบการบันทึกรายการเงินสด"/>
+                <attribute name="บัญชีที่ใช้บันทึกรายการเงินสด"/>
+                <attribute name="ประเภทเอกสารสำหรับเคลียร์ยอด"/>
+                <attribute name="ผู้รับผิดชอบการเคลียร์ยอด"/>
+                <attribute name="วิธีเคลียร์ยอดผู้ขาย"/>
+                <attribute name="บัญชีสำหรับกระทบยอดกรณีไม่มีบัญชีผู้ขาย"/>
+                <attribute name="ข้อความรายการ"/>
+                <attribute name="หลักฐานการใช้เงินสด"/>
+                <attribute name="การคืนเงินสด"/>
+                <attribute name="ประเภทรายการเงินสดที่คืน"/>
+                <attribute name="ผู้ที่มองเห็นข้อมูลการเบิกเงินสด"/>
+                <attribute name="จำนวนเงินที่นำส่งในไฟล์บัญชี"/>
+                <attribute name="เกณฑ์ควบคุมการใช้เงินสด"/>
+                <attribute name="ระบบตรวจสอบรายการ"/>
+                <attribute name="รูปแบบแบบฟอร์ม_po"/>
+                <attribute name="องค์ประกอบแบบฟอร์ม_po"/>
+                <attribute name="รูปแบบผลลัพธ์_po"/>
+                <attribute name="จำนวนประเภทภาษีในใบแจ้งหนี้"/>
+                <attribute name="วิธีจัดการยอดใบแจ้งหนี้"/>
+                <attribute name="รูปแบบไฟล์การชำระเงิน"/>
+                <attribute name="ธนาคารผู้รับไฟล์"/>
+                <attribute name="ประเภทรายการชำระเงินของ_bnp"/>
+                <attribute name="ประเภทรายการชำระเงินของ_citi_bank"/>
+                <attribute name="ประเภทรายการชำระเงินของ_commercial_international_bank"/>
+                <attribute name="ประเภทรายการชำระเงินของ_credit_agricole"/>
+                <attribute name="ประเภทรายการชำระเงินของ_emirates_nbd"/>
+                <attribute name="ประเภทรายการชำระเงินของ_qnb"/>
+                <attribute name="ผลการรับไฟล์การชำระเงิน"/>
+                <coverage-goal coverage-goal-val="1"/>
+            </coverage-req>
+        </coverage-reqs-set>
+    </coverage-reqs-sets>
+    <neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+        <coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet">
+            <coverage-req>
+                <coverage-goal coverage-goal-val="1"/>
+                <negative-attribute-combination>
+                    <attribute name="เส้นทางการเชื่อมต่อ"/>
+                </negative-attribute-combination>
+            </coverage-req>
+        </coverage-reqs-set>
+    </neg-coverage-reqs-sets>
+    <focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="true">
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="test case id-1" negative="false" suppressNewLine="false" triggerType="TEST_CASE_ID">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="TC1"/>
+            </focus-ctd-single-template>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="test data-1" negative="false" suppressNewLine="false" triggerType="Test_Data">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="ใบแจ้งหนี้ที่มีสกุลเงินเป็น USD และซัพพลายเออร์มีสิทธิ์ได้รับชำระเงินเป็นสกุลเงินแข็งจากรัฐบาล&#10;แบบฟอร์ม PO ที่กำหนดค่าให้สอดคล้องกับเทมเพลตการกำหนดค่ามาตรฐาน&#10;ใบแจ้งหนี้ที่มีภาษีสองประเภทที่แตกต่างกัน&#10;ไฟล์การชำระเงินในรูปแบบ MT101&#10;### Steps to Reproduce:&#10;ส่งใบแจ้งหนี้จากพอร์ทัลรัฐบาลอียิปต์ผ่าน edicom ไปยัง Basware&#10;ตรวจสอบว่าสกุลเงินในใบแจ้งหนี้เป็น USD และซัพพลายเออร์มีสิทธิ์ได้รับชำระเงินเป็นสกุลเงินแข็งจากรัฐบาล&#10;ผู้ใช้ทางธุรกิจขออนุมัติการชำระเงินและขอให้แคชเชียร์จ่ายเงินสด&#10;แคชเชียร์จ่ายเงินสดและขอให้ RTR บันทึกรายการบันทึกบัญชีเงินสด&#10;ตรวจสอบยอดคงเหลือในบัญชีพักชำระหนี้กับใบแจ้งหนี้ที่ลงรายการไว้&#10;ทีม PTP เคลียร์ยอดคงเหลือกับใบแจ้งหนี้ของซัพพลายเออร์&#10;ตรวจสอบว่าแบบฟอร์ม PO ถูกสร้างขึ้นในรูปแบบที่ถูกต้อง&#10;ตรวจสอบว่าภาษีสองประเภทที่แตกต่างกันถูกประมวลผลสำเร็จ&#10;สร้างไฟล์การชำระเงินในรูปแบบ MT101 และส่งไปยังธนาคาร Credit Agricole&#10;ตรวจสอบว่าธนาคารยอมรับไฟล์การชำระเงิน&#10;### Actual Result:&#10;To be filled after test execution."/>
+            </focus-ctd-single-template>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="test case id-2" negative="false" suppressNewLine="false" triggerType="TEST_CASE_ID">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="TC2"/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="testcase-1" negative="false" suppressNewLine="false" triggerType="Test_Case_Name">
+            <focus-ctd-single-template>
+                <focus-ctd-template text=" Verify Payment Process for Egyptian Supplier with Hard Currency Invoice and Local Currency Payment"/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="test case description-1" negative="false" suppressNewLine="false" triggerType="Test_Case_Description">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="This test case validates the payment process for an Egyptian supplier where the invoice is issued in a hard currency (EUR) but the payment is made in the local currency (EGP), ensuring compliance with local regulations and OpCo's business requirements."/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="pre requisite-1" negative="false" suppressNewLine="false" triggerType="Preconditions">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="The supplier is registered in the system with country &quot;EG&quot;.&#10;The company code is &quot;EG&quot;.&#10;The invoice is issued in a hard currency (EUR).&#10;The supplier's bank account is in EGP.&#10;The payment method is configured to handle hard currency invoices with local currency payments."/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="test data-2" negative="false" suppressNewLine="false" triggerType="Test_Data">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Supplier Country: EG&#10;Company Code: EG&#10;Invoice Currency: EUR&#10;Supplier Bank Account Currency: EGP&#10;Payment Currency: EGP&#10;Payment Method: Configured for hard currency invoices with local currency payments&#10;Bank: Commercial International Bank&#10;Payment File Format: MT101&#10;ข้อมูลผู้ขาย/พนักงาน&#10;จำนวนเงินที่ขอ&#10;ใบเสร็จรับเงิน (ถ้ามี)&#10;### Automated Test: ไม่ได้&#10;### Priority: สูง&#10;### Status: รอกำหนด&#10;##&#10;### Test Case ID: TC-EG-002&#10;### Test Case Title: ทดสอบการลงรายการใบแจ้งหนี้ด้วยสกุลเงินต่างประเทศและการชำระเงินเป็นสกุลเงินท้องถิ่น&#10;### Test Case Description: ทดสอบกระบวนการลงรายการใบแจ้งหนี้ด้วยสกุลเงินต่างประเทศ (EUR) และการชำระเงินเป็นสกุลเงินท้องถิ่น (EGP)&#10;### Preconditions:&#10;ระบบ SAP และ Basware พร้อมใช้งาน&#10;ผู้ใช้มีสิทธิ์เข้าถึงระบบที่เกี่ยวข้อง&#10;มีการตั้งค่ารหัสบริษัทและประเทศผู้ขายที่เกี่ยวข้อง&#10;ใบแจ้งหนี้ด้วยสกุลเงิน EUR&#10;อัตราแลกเปลี่ยนระหว่าง EUR และ EGP&#10;### Automated Test: ไม่ได้&#10;### Priority: สูง&#10;### Status: รอกำหนด&#10;##&#10;### Test Case ID: TC-EG-003&#10;### Test Case Title: ทดสอบการกำหนดค่าแบบฟอร์ม PO สำหรับอียิปต์&#10;### Test Case Description: ทดสอบการกำหนดค่าแบบฟอร์ม PO ตามเทมเพลตที่กำหนดไว้ในไฟล์กำหนดค่า SAP CORE&#10;### Preconditions:&#10;ระบบ SAP พร้อมใช้งาน&#10;มีการตั้งค่าเทมเพลตแบบฟอร์ม PO ในระบบ&#10;เทมเพลตแบบฟอร์ม PO ที่กำหนดไว้&#10;### Automated Test: ไม่ได้&#10;### Priority: สูง&#10;### Status: รอกำหนด&#10;##&#10;### Test Case ID: TC-EG-004&#10;### Test Case Title: ทดสอบการจัดการใบแจ้งหนี้ที่มีภาษีสองประเภทที่แตกต่างกัน&#10;### Test Case Description: ทดสอบกระบวนการจัดการใบแจ้งหนี้ที่มีภาษีสองประเภทที่แตกต่างกัน&#10;### Preconditions:&#10;ระบบ SAP และ Basware พร้อมใช้งาน&#10;ผู้ใช้มีสิทธิ์เข้าถึงระบบที่เกี่ยวข้อง&#10;ใบแจ้งหนี้ที่มีภาษีสองประเภทที่แตกต่างกัน&#10;### Automated Test: ไม่ได้&#10;### Priority: สูง&#10;### Status: รอกำหนด&#10;##&#10;### Test Case ID: TC-EG-005&#10;### Test Case Title: ทดสอบโครงสร้างไฟล์การชำระเงินสำหรับธนาคารต่างๆ&#10;### Test Case Description: ทดสอบโครงสร้างไฟล์การชำระเงินสำหรับธนาคารต่างๆ ที่รองรับโดยระบบ&#10;### Preconditions:&#10;ระบบ SAP พร้อมใช้งาน&#10;มีการตั้งค่าธนาคารและรูปแบบไฟล์การชำระเงิน&#10;ข้อมูลการชำระเงินสำหรับธนาคารต่างๆ&#10;### Automated Test: ไม่ได้&#10;### Priority: สูง&#10;### Status: รอกำหนด&#10;```&lt;end_of_thought&gt;&#10;### Test Case ID: TC-001&#10;### Test Case Description:&#10;Verify that the system can handle invoice processing and payment for Egyptian suppliers with hard currency invoices.&#10;### Preconditions:&#10;The invoice is received from the Egyptian government portal.&#10;The supplier is an Egyptian supplier.&#10;The invoice is in a hard currency (USD).&#10;The payment is to be made in local currency (EGP).&#10;### Steps:&#10;The system receives the invoice from the Egyptian government portal through the Basware intermediary.&#10;The invoice is processed with the supplier's country as Egypt and the invoice currency as USD.&#10;The system checks if the company code is &quot;EG&quot; and the supplier's country is &quot;EG&quot; and the invoice currency is not &quot;EGP&quot;.&#10;The system copies the local currency amount to the payment currency amount.&#10;The payment is processed in the local currency (EGP).&#10;The invoice is cleared against the payment using the payment currency.&#10;The system posts the residual amount in the supplier's account to a technical account.&#10;### Expected Result:&#10;The invoice is processed correctly.&#10;The payment is made in the local currency (EGP).&#10;The invoice is cleared against the payment.&#10;The residual amount in the supplier's account is posted to a technical account.&#10;Source of invoice: Egyptian government portal&#10;Supplier country: Egypt&#10;Invoice currency: USD&#10;Company code: EG&#10;Payment currency: EGP&#10;## Test Case&#10;### Test Case ID: TC-002&#10;### Test Case Description:&#10;Verify that the system can handle cash payment processing for Egyptian suppliers and employees.&#10;### Preconditions:&#10;The payment request is approved.&#10;The cash payment is to be made to a supplier or employee.&#10;### Steps:&#10;The user requests a cash payment for a supplier or employee.&#10;The request is approved by the manager.&#10;The cashier makes the cash payment.&#10;The RTR user posts the cash journal entry using the Fiori app.&#10;The cash journal entry is posted to a suspense account.&#10;The PTP user clears the balance in the suspense account against the supplier's invoice or a non-invoice document (KA).&#10;For employee cash advances, the employee submits a receipt for the expenses in MXP.&#10;The cashier verifies the receipt and returns any excess amount to the employee.&#10;The RTR user posts the returned cash journal entry using the Fiori app.&#10;### Expected Result:&#10;The cash payment is processed correctly.&#10;The cash journal entry is posted to a suspense account.&#10;The balance in the suspense account is cleared against the supplier's invoice or a non-invoice document (KA).&#10;For employee cash advances, the expenses are recorded correctly in MXP.&#10;The excess amount is returned to the employee and recorded correctly in the system.&#10;Payment type: Cash payment&#10;Supplier/Employee country: Egypt&#10;Currency: EGP or hard currency&#10;Payment amount: varies&#10;## Test Case&#10;### Test Case ID: TC-003&#10;### Test Case Description:&#10;Verify that the PO form is configured correctly according to the SAP CORE configuration file.&#10;### Preconditions:&#10;The PO form configuration is set up according to the SAP CORE configuration file.&#10;### Steps:&#10;Create a PO using the configured template.&#10;Verify that the PO form contains the required elements such as logo, terms and conditions, and footer text.&#10;Verify that the PO form is generated in the correct format (email and PDF).&#10;### Expected Result:&#10;The PO form is generated correctly according to the configured template.&#10;The PO form contains the required elements.&#10;The PO form is generated in the correct format.&#10;PO form template: Configured according to SAP CORE configuration file&#10;## Test Case&#10;### Test Case ID: TC-004&#10;### Test Case Description:&#10;Verify that the system can handle invoices with multiple tax types.&#10;### Preconditions:&#10;The invoice contains multiple tax types.&#10;### Steps:&#10;Receive the invoice with multiple tax types.&#10;Verify that the system allows the user to adjust the invoice amount manually.&#10;Verify that the system posts the invoice correctly with the multiple tax types.&#10;### Expected Result:&#10;The system allows the user to adjust the invoice amount manually.&#10;The system posts the invoice correctly with the multiple tax types.&#10;Invoice with multiple tax types&#10;## Test Case&#10;### Test Case ID: TC-005&#10;### Test Case Description:&#10;Verify that the system can generate payment files in the correct format for different banks.&#10;### Preconditions:&#10;The payment files are to be generated for different banks.&#10;### Steps:&#10;Generate payment files for different banks (BNP, Citi Bank, Commercial International Bank, Credit Agricole, Emirates NBD, QNB).&#10;Verify that the payment files are generated in the correct format (XML, MT101) for each bank.&#10;Verify that the payment files contain the required information.&#10;### Expected Result:&#10;The payment files are generated in the correct format for each bank.&#10;The payment files contain the required information.&#10;Payment files for different banks&#10;### The final test case based on the combinatorial test plan is as follows:&#10;## Test Case&#10;### Test Case ID: TC-006&#10;### Test Case Description:&#10;Verify that the system can handle invoice processing and payment for Egyptian suppliers with hard currency invoices, using cash payment, and generating payment files in the correct format.&#10;### Preconditions:&#10;The invoice is received from the Egyptian government portal.&#10;The supplier is an Egyptian supplier.&#10;The invoice is in a hard currency (USD).&#10;The payment is to be made in local currency (EGP).&#10;The cash payment is to be made to the supplier.&#10;### Steps:&#10;The system receives the invoice from the Egyptian government portal through the Basware intermediary.&#10;The invoice is processed with the supplier's country as Egypt and the invoice currency as USD.&#10;The system checks if the company code is &quot;EG&quot; and the supplier's country is &quot;EG&quot; and the invoice currency is not &quot;EGP&quot;.&#10;The system copies the local currency amount to the payment currency amount.&#10;The payment is processed in the local currency (EGP) using cash payment.&#10;The cashier makes the cash payment to the supplier.&#10;The RTR user posts the cash journal entry using the Fiori app.&#10;The PTP user clears the balance in the suspense account against the supplier's invoice.&#10;Generate payment files for the payment in the correct format (MT101) for the bank (BNP).&#10;### Expected Result:&#10;The invoice is processed correctly.&#10;The cash payment is processed correctly.&#10;The payment files are generated in the correct format for the bank.&#10;Source of invoice: Egyptian government portal&#10;Supplier country: Egypt&#10;Invoice currency: USD&#10;Company code: EG&#10;Payment currency: EGP&#10;Payment type: Cash payment&#10;Bank: BNP"/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="test step-1" negative="false" suppressNewLine="false" triggerType="Test_Steps">
+            <focus-ctd-multiple-template>
+                <focus-ctd-multiple-template-testSteps>
+                    <focus-ctd-template text="Create a purchase order in the system for an Egyptian supplier with a hard currency (EUR)."/>
+                    <focus-ctd-template text="Receive an invoice from the supplier in EUR through the Edicom portal and verify it is processed in Basware."/>
+                    <focus-ctd-template text="Ensure the invoice is posted in SAP with the correct document currency (EUR) and local currency (EGP) values."/>
+                    <focus-ctd-template text="Verify that the payment currency is set to EGP and the payment amount is calculated correctly based on the invoice amount in EUR."/>
+                    <focus-ctd-template text="Approve the payment proposal and execute the payment run."/>
+                    <focus-ctd-template text="Validate that the payment file generated is in the correct format (MT101) and is accepted by the bank (Commercial International Bank)."/>
+                    <focus-ctd-template text="Check that the supplier's account is cleared in EGP and there is no residual balance in the document currency (EUR)."/>
+                    <focus-ctd-template text="Verify that the cash payment process for the supplier is handled correctly through the Fiori app and the cash journal is updated accordingly."/>
+                    <focus-ctd-template text="ผู้ใช้ทางธุรกิจสร้างคำขอชำระเงินให้กับผู้ขาย/พนักงานในระบบ"/>
+                    <focus-ctd-template text="ระบบส่งคำขอเพื่ออนุมัติตามลำดับชั้นที่กำหนด"/>
+                    <focus-ctd-template text="หลังจากการอนุมัติแล้ว ผู้ใช้ทางธุรกิจขอเงินสดจากแคชเชียร์"/>
+                    <focus-ctd-template text="แคชเชียร์จ่ายเงินสดและแจ้งให้ RTR บันทึกรายการเงินสด"/>
+                    <focus-ctd-template text="RTR บันทึกรายการเงินสดในแอป Fiori โดยใช้บัญชีพักชำระเงิน"/>
+                    <focus-ctd-template text="ทีมประมวลผลใบแจ้งหนี้ตรวจสอบยอดคงเหลือในบัญชีพักชำระหนี้กับใบแจ้งหนี้ที่ลงรายการไว้"/>
+                    <focus-ctd-template text="ทีม PTP เคลียร์ยอดคงเหลือในบัญชีพักชำระหนี้กับใบแจ้งหนี้หรือเอกสารที่ไม่ใช่ใบแจ้งหนี้ (KA)"/>
+                    <focus-ctd-template text="ใบแจ้งหนี้ถูกส่งมาจากผู้ขายเป็นสกุลเงิน EUR"/>
+                    <focus-ctd-template text="ระบบลงรายการใบแจ้งหนี้ใน Basware และส่งไปยัง SAP"/>
+                    <focus-ctd-template text="ใน SAP ระบบคัดลอกจำนวนเงินในสกุลเงินท้องถิ่นไปยังช่องจำนวนเงินการชำระเงิน"/>
+                    <focus-ctd-template text="การชำระเงินถูกดำเนินการเป็นสกุลเงิน EGP"/>
+                    <focus-ctd-template text="ยอดคงเหลือในบัญชีผู้ขายถูกเคลียร์โดยการลงรายการบัญชีใหม่ไปยังบัญชีทางเทคนิค"/>
+                    <focus-ctd-template text="สร้างแบบฟอร์ม PO ในระบบ"/>
+                    <focus-ctd-template text="ตรวจสอบว่าแบบฟอร์ม PO ถูกกำหนดค่าตามเทมเพลตที่กำหนดไว้"/>
+                    <focus-ctd-template text="ตรวจสอบว่ารูปแบบอีเมลและ PDF ที่สร้างขึ้นถูกต้อง"/>
+                    <focus-ctd-template text="สร้างใบแจ้งหนี้ที่มีภาษีสองประเภทที่แตกต่างกัน"/>
+                    <focus-ctd-template text="ระบบลงรายการใบแจ้งหนี้ใน Basware และส่งไปยัง SAP"/>
+                    <focus-ctd-template text="ตรวจสอบว่าข้อมูลภาษีถูกบันทึกอย่างถูกต้อง"/>
+                    <focus-ctd-template text="สร้างไฟล์การชำระเงินสำหรับธนาคารต่างๆ (BNP, Citi Bank, Commercial International Bank, Credit Agricole, Emirates NBD, QNB)"/>
+                    <focus-ctd-template text="ตรวจสอบว่าไฟล์การชำระเงินถูกสร้างขึ้นตามรูปแบบที่กำหนดไว้สำหรับแต่ละธนาคาร"/>
+                </focus-ctd-multiple-template-testSteps>
+                <focus-ctd-multiple-template-expectedResults>
+                    <focus-ctd-template text="The invoice is successfully processed in Basware and posted in SAP with the correct currencies."/>
+                    <focus-ctd-template text="The payment is executed in EGP, and the payment amount is correctly calculated."/>
+                    <focus-ctd-template text="The payment file is generated in MT101 format and accepted by the Commercial International Bank."/>
+                    <focus-ctd-template text="The supplier's account is cleared in EGP with no residual balance in EUR."/>
+                    <focus-ctd-template text="The cash payment process is correctly handled through the Fiori app, and the cash journal is updated."/>
+                    <focus-ctd-template text="## Refined Test Case"/>
+                    <focus-ctd-template text="ใบแจ้งหนี้ถูกสร้างขึ้นจากพอร์ทัลรัฐบาลอียิปต์และถูกส่งไปยัง Basware ผ่าน Edicom โดยใช้การเชื่อมต่อ AS2"/>
+                    <focus-ctd-template text="ใบแจ้งหนี้มีสกุลเงินเป็น USD และบัญชีธนาคารของผู้ขายเป็นสกุลเงินแข็ง"/>
+                    <focus-ctd-template text="ระบบตรวจสอบสิทธิ์การรับชำระเงินเป็นสกุลเงินแข็งและพบว่าได้รับสิทธิ์จากรัฐบาล"/>
+                    <focus-ctd-template text="ระบบจะคัดลอกจำนวนเงินในสกุลเงินท้องถิ่นไปยังช่องจำนวนเงินการชำระเงิน"/>
+                    <focus-ctd-template text="การชำระเงินจะดำเนินการในสกุลเงินท้องถิ่น (EGP) และใช้บัญชีแยกประเภทเป้าหมายในการหักบัญชีใบแจ้งหนี้"/>
+                    <focus-ctd-template text="ยอดคงเหลือในบัญชีผู้ขายจะถูกเคลียร์โดยการโพสต์ยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+                    <focus-ctd-template text="การขออนุมัติการชำระเงินด้วยเงินสดจะถูกสร้างขึ้นสำหรับพนักงานและได้รับการอนุมัติ"/>
+                    <focus-ctd-template text="แคชเชียร์จ่ายเงินสดให้กับพนักงานและ RTR บันทึกรายการบันทึกบัญชีเงินสดโดยใช้แอป Fiori"/>
+                    <focus-ctd-template text="รายการบันทึกบัญชีเงินสดจะถูกบันทึกไว้ในบัญชีพักชำระเงินเฉพาะ"/>
+                    <focus-ctd-template text="ไฟล์บัญชี MXP จะถูกสร้างขึ้นและยอดคงเหลือในบัญชีพักชำระเงินจะถูกเคลียร์"/>
+                    <focus-ctd-template text="การคืนเงินสดจะถูกดำเนินการและบันทึกรายการบันทึกบัญชีเงินสด (รายการรับเข้า) จะถูกสร้างขึ้น"/>
+                    <focus-ctd-template text="แบบฟอร์ม PO จะถูกสร้างขึ้นตามเทมเพลตที่กำหนดไว้ในไฟล์กำหนดค่า SAP CORE และสร้างอีเมลและ PDF ในรูปแบบที่ถูกต้อง"/>
+                    <focus-ctd-template text="ใบแจ้งหนี้ที่มีภาษีสองประเภทที่แตกต่างกันจะถูกสร้างขึ้นและฟิลด์ภาษีหลายรายการจะถูกเพิ่มใน Basware/SAP"/>
+                    <focus-ctd-template text="ไฟล์การชำระเงินจะถูกสร้างขึ้นในรูปแบบ MT101 และถูกส่งไปยังธนาคาร BNP ซึ่งยอมรับไฟล์การชำระเงิน"/>
+                    <focus-ctd-template text="## Combinatorial Test Plan"/>
+                    <focus-ctd-template text="{'แหล่งที่มาของใบแจ้งหนี้': 'พอร์ทัลรัฐบาลอียิปต์', 'ตัวกลางรับส่งใบแจ้งหนี้': 'ไม่เกี่ยวข้อง', 'เส้นทางการเชื่อมต่อ': 'ผ่าน_edicom', 'วิธีเชื่อมต่อกับ_basware': 'as2', 'ปลายทางเอกสาร': 'เครือข่าย_basware', 'รหัสบริษัท': 'eg', 'ประเทศผู้ขาย': 'eg', 'สกุลเงินในใบแจ้งหนี้': 'usd', 'สกุลเงินบัญชีธนาคารผู้ขาย': 'สกุลเงินแข็ง', 'สิทธิ์รับชำระเป็นสกุลเงินแข็ง': 'ได้รับสิทธิ์จากรัฐบาล', 'สกุลเงินการชำระเงิน': 'egp', 'จำนวนเงินการชำระเงิน': 'จำนวนเงินตามใบแจ้งหนี้', 'การจัดการช่องสกุลเงินการชำระเงิน': 'คัดลอกจำนวนเงินในสกุลเงินท้องถิ่น', 'สกุลเงินที่ใช้หักบัญชีใบแจ้งหนี้': 'สกุลเงินการชำระเงิน', 'การจัดการยอดคงเหลือในบัญชีผู้ขาย': 'ไม่มียอดคงเหลือในสกุลเงินเอกสาร', 'ระบบที่ใช้ชำระเงิน': 'mxp', 'ประเภทผู้รับเงิน': 'พนักงาน', 'สกุลเงินที่ขอรับ': 'สกุลเงินต่างประเทศ', 'สถานะการอนุมัติ': 'อนุมัติแล้ว', 'ขั้นตอนการขอเงินสด': 'ขอเงินสดจากแคชเชียร์', 'ผู้รับเงินสด': 'พนักงาน', 'ช่องทางบันทึกรายการเงินสด': 'แอป_fiori', 'ผู้รับผิดชอบการบันทึกรายการเงินสด': 'rtr', 'บัญชีที่ใช้บันทึกรายการเงินสด': 'บัญชีพักชำระเงินเฉพาะ', 'ประเภทเอกสารสำหรับเคลียร์ยอด': 'ไฟล์บัญชี_mxp', 'ผู้รับผิดชอบการเคลียร์ยอด': 'rtr', 'วิธีเคลียร์ยอดผู้ขาย': 'เคลียร์ด้วยตนเอง', 'บัญชีสำหรับกระทบยอดกรณีไม่มีบัญชีผู้ขาย': 'บัญชีแยกประเภทเป้าหมาย', 'ข้อความรายการ': 'หมวดหมู่ค่าใช้จ่าย', 'หลักฐานการใช้เงินสด': 'ใบเสร็จรับเงิน', 'การคืนเงินสด': 'คืนเงินให้แคชเชียร์', 'ประเภทรายการเงินสดที่คืน': 'รายการรับเข้า', 'ผู้ที่มองเห็นข้อมูลการเบิกเงินสด': 'ผู้อนุมัติ', 'จำนวนเงินที่นำส่งในไฟล์บัญชี': 'จำนวนเงินที่มีใบเสร็จรองรับ', 'เกณฑ์ควบคุมการใช้เงินสด': 'กำหนดเกณฑ์ในแอป_fiori', 'ระบบตรวจสอบรายการ': 'ตรวจสอบใน_s4hana', 'รูปแบบแบบฟอร์ม_po': 'เทมเพลตตามไฟล์กำหนดค่า_sap_core', 'องค์ประกอบแบบฟอร์ม_po': 'ข้อกำหนดและเงื่อนไข', 'รูปแบบผลลัพธ์_po': 'อีเมล_และ_pdf', 'จำนวนประเภทภาษีในใบแจ้งหนี้': 'ภาษีสองประเภทที่แตกต่างกัน', 'วิธีจัดการยอดใบแจ้งหนี้': 'เพิ่มฟิลด์ภาษีหลายรายการใน_basware_หรือ_sap', 'รูปแบบไฟล์การชำระเงิน': 'mt101', 'ธนาคารผู้รับไฟล์': 'bnp', 'ประเภทรายการชำระเงินของ_bnp': 'ไม่ใช่_sepa', 'ประเภทรายการชำระเงินของ_citi_bank': 'การโอนเงินผ่านสมุดบัญชีอียิปต์_547', 'ประเภทรายการชำระเงินของ_commercial_international_bank': 'การโอนเงินภาษี', 'ประเภทรายการชำระเงินของ_credit_agricole': 'การโอนเงินภาษี', 'ประเภทรายการชำระเงินของ_emirates_nbd': 'การโอนเงินภาษี', 'ประเภทรายการชำระเงินของ_qnb': 'การโอนเงินภายในประเทศ', 'ผลการรับไฟล์การชำระเงิน': 'ธนาคารยอมรับไฟล์การชำระเงิน', 'อ': 'เชื่อมต่อโดยตรง_ไม่รองรับ', 'บ_basware': 'ไม่เกี่ยวข้อง', 'ท': 'eg', 'ขาย': 'บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค', 'ง': 'ได้รับสิทธิ์จากรัฐบาล', 'น': 'คัดลอกจำนวนเงินในสกุลเงินท้องถิ่น', 'บ': 'สกุลเงินท้องถิ่น', 'นสด': 'ผู้อนุมัติ', 'ยอด': 'เอกสารที่ไม่ใช่ใบแจ้งหนี้_ka', 'อความรายการ': 'หมวดหมู่ค่าใช้จ่าย', 'ม_po': 'ข้อความส่วนท้าย', '_po': 'อีเมล_และ_pdf', 'นของ_bnp': 'ไม่ใช่_sepa', 'นของ_citi_bank': 'การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555', 'นของ_commercial_international_bank': 'การโอนเงินภาษี', 'นของ_credit_agricole': 'การโอนเงินภายในประเทศ', 'นของ_emirates_nbd': 'การโอนเงินภาษี', 'นของ_qnb': 'การจ่ายเงินเดือน'}"/>
+                    <focus-ctd-template text="### Test Case ID: TC-EG-001"/>
+                    <focus-ctd-template text="### Test Case Title: การทดสอบการชำระเงินด้วยเงินสดให้กับผู้ขายและพนักงานในอียิปต์"/>
+                    <focus-ctd-template text="### Test Case Description: ทดสอบกระบวนการชำระเงินด้วยเงินสดให้กับผู้ขายและพนักงานในอียิปต์ โดยครอบคลุมถึงการอนุมัติ การขอเงินสด การบันทึกรายการเงินสด และการเคลียร์ยอดคงเหลือ"/>
+                    <focus-ctd-template text="### Preconditions:"/>
+                    <focus-ctd-template text="ระบบ SAP และ MXP พร้อมใช้งาน"/>
+                    <focus-ctd-template text="ผู้ใช้มีสิทธิ์เข้าถึงระบบที่เกี่ยวข้อง"/>
+                </focus-ctd-multiple-template-expectedResults>
+                <focus-ctd-multiple-template-additionalInfo/>
+            </focus-ctd-multiple-template>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ปลายทางเอกสาร" operation="Equals">
+                <focus-ctd-cond-val value="เครือข่าย_basware"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินแข็ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="จำนวนเงินตามใบแจ้งหนี้"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ป้อนค่า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="พนักงาน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินต่างประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ขอเงินสดจากแคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้ใช้ทางธุรกิจ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="แอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="rtr"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักชำระเงินเฉพาะ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ptp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="เคลียร์ยอดบัญชี_gl"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีแยกประเภทเป้าหมาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ใบเสร็จรับเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="คืนเงินให้แคชเชียร์"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="รายการรับเข้า"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="ผู้อนุมัติ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="กำหนดเกณฑ์ในแอป_fiori"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ระบบตรวจสอบรายการ" operation="Equals">
+                <focus-ctd-cond-val value="ตรวจสอบใน_s4hana"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="เทมเพลตตามไฟล์กำหนดค่า_sap_core"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="mt101"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภายในประเทศ"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="ธนาคารยอมรับไฟล์การชำระเงิน"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อ" operation="Equals">
+                <focus-ctd-cond-val value="ผ่าน_edicom"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ_basware" operation="Equals">
+                <focus-ctd-cond-val value="ไม่เกี่ยวข้อง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ท" operation="Equals">
+                <focus-ctd-cond-val value="eg"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ขาย" operation="Equals">
+                <focus-ctd-cond-val value="ไม่มียอดคงเหลือในสกุลเงินเอกสาร"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ง" operation="Equals">
+                <focus-ctd-cond-val value="ได้รับสิทธิ์จากรัฐบาล"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="น" operation="Equals">
+                <focus-ctd-cond-val value="eur"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="บ" operation="Equals">
+                <focus-ctd-cond-val value="สกุลเงินท้องถิ่น"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นสด" operation="Equals">
+                <focus-ctd-cond-val value="บัญชีพักสำหรับ_mxp"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ยอด" operation="Equals">
+                <focus-ctd-cond-val value="ใบแจ้งหนี้ผู้ขาย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="อความรายการ" operation="Equals">
+                <focus-ctd-cond-val value="หมวดหมู่ค่าใช้จ่าย"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ม_po" operation="Equals">
+                <focus-ctd-cond-val value="ข้อความใบแจ้งหนี้ที่ส่ง"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="_po" operation="Equals">
+                <focus-ctd-cond-val value="อีเมล_และ_pdf"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_bnp" operation="Equals">
+                <focus-ctd-cond-val value="ไม่ใช่_sepa"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_citi_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินผ่านสมุดบัญชีอียิปต์_547"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_commercial_international_bank" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_credit_agricole" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_emirates_nbd" operation="Equals">
+                <focus-ctd-cond-val value="การโอนเงินภาษี"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="นของ_qnb" operation="Equals">
+                <focus-ctd-cond-val value="การจ่ายเงินเดือน"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+    </focus-ctd-decoration>
+    <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername=""/>
+    <deactivates/>
+    <attrs-to-delete/>
+    <pool_comments/>
+    <db-dependencies/>
+    <focus-ctd-model-sync>
+        <focus-ctd-model-sync-mult/>
+        <focus-ctd-model-sync-na/>
+    </focus-ctd-model-sync>
+</focus-model>
