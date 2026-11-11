@@ -2,15 +2,15 @@
 <!DOCTYPE focus-model [
 ]>
 <!--Model Created from Reqode--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
-    <model-identification modelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated">
+    <model-identification modelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated">
         <model-identification-field name="Application Name" partOfTag="true" value="Release2dot4_withoutTool"/>
-        <model-identification-field name="Application code version #" partOfTag="true" value="1.1"/>
+        <model-identification-field name="Application code version #" partOfTag="true" value="1.2"/>
         <model-identification-field name="Application Function" partOfTag="true" value="Release2dot4_withoutTool_Test"/>
         <model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
         <model-identification-field name="Created By" partOfTag="false" value="rgtmp_devapriya.pal"/>
         <model-identification-field name="Created Date and Time" partOfTag="false" value="10 Nov 2026 18:46:54"/>
         <model-identification-field name="Updated By" partOfTag="false" value="devapriya.pal"/>
-        <model-identification-field name="Updated Date and Time" partOfTag="false" value="11 Nov 2026 20:59:23"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="11 Nov 2026 21:05:08"/>
         <model-identification-field name="Application Sub Function" partOfTag="true" value="GenAI_generated"/>
         <model-identification-field name="Test Stage" partOfTag="false" value=""/>
         <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -21,206 +21,206 @@
         <model-identification-field name="Git Comments" partOfTag="false" value=""/>
         <model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
     </model-identification>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="แหล่งที่มาของใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="แหล่งที่มาของใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="พอร์ทัลรัฐบาลอียิปต์" neg-value="false" weight="1"/>
         <requirement ID="Thai_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ตัวกลางรับส่งใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ตัวกลางรับส่งใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="edicom" neg-value="false" weight="1"/>
         <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
         <requirement ID="Thai_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="เส้นทางการเชื่อมต่อ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="เส้นทางการเชื่อมต่อ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ผ่าน_edicom" neg-value="false" weight="1"/>
         <value name="เชื่อมต่อโดยตรง_ไม่รองรับ" neg-value="true" weight="1"/>
         <requirement ID="Thai_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีเชื่อมต่อกับ_basware" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีเชื่อมต่อกับ_basware" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="as2" neg-value="false" weight="1"/>
         <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
         <requirement ID="Thai_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ปลายทางเอกสาร" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ปลายทางเอกสาร" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="เครือข่าย_basware" neg-value="false" weight="1"/>
         <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
         <requirement ID="Thai_1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รหัสบริษัท" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รหัสบริษัท" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="eg" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเทศผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเทศผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="eg" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินในใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินในใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="eur" neg-value="false" weight="1"/>
         <value name="usd" neg-value="false" weight="1"/>
         <value name="egp" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินบัญชีธนาคารผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินบัญชีธนาคารผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="สกุลเงินแข็ง" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สิทธิ์รับชำระเป็นสกุลเงินแข็ง" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สิทธิ์รับชำระเป็นสกุลเงินแข็ง" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ได้รับสิทธิ์จากรัฐบาล" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="egp" neg-value="false" weight="1"/>
         <value name="eur" neg-value="false" weight="1"/>
         <value name="usd" neg-value="false" weight="1"/>
         <value name="ว่างเปล่า" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="จำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="จำนวนเงินตามใบแจ้งหนี้" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การจัดการช่องสกุลเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การจัดการช่องสกุลเงินการชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="คัดลอกจำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="ผู้ใช้ลบค่า" neg-value="false" weight="1"/>
         <value name="ผู้ใช้ป้อนค่า" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินที่ใช้หักบัญชีใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินที่ใช้หักบัญชีใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="สกุลเงินในใบแจ้งหนี้" neg-value="false" weight="1"/>
         <value name="สกุลเงินการชำระเงิน" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การจัดการยอดคงเหลือในบัญชีผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การจัดการยอดคงเหลือในบัญชีผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ไม่มียอดคงเหลือในสกุลเงินเอกสาร" neg-value="false" weight="1"/>
         <value name="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค" neg-value="false" weight="1"/>
         <requirement ID="Thai_2"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ระบบที่ใช้ชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ระบบที่ใช้ชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="core" neg-value="false" weight="1"/>
         <value name="mxp" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทผู้รับเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทผู้รับเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ผู้ขายที่มีบัญชีใน_core" neg-value="false" weight="1"/>
         <value name="ผู้ขายที่ไม่มีบัญชีใน_core" neg-value="false" weight="1"/>
         <value name="พนักงาน" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินที่ขอรับ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สกุลเงินที่ขอรับ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="สกุลเงินต่างประเทศ" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สถานะการอนุมัติ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="สถานะการอนุมัติ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="อนุมัติแล้ว" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ขั้นตอนการขอเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ขั้นตอนการขอเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ขอเงินสดจากแคชเชียร์" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ผู้ใช้ทางธุรกิจ" neg-value="false" weight="1"/>
         <value name="พนักงาน" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ช่องทางบันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ช่องทางบันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="แอป_fiori" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับผิดชอบการบันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับผิดชอบการบันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="rtr" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บัญชีที่ใช้บันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บัญชีที่ใช้บันทึกรายการเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="บัญชีพักชำระเงินเฉพาะ" neg-value="false" weight="1"/>
         <value name="บัญชีพักสำหรับ_mxp" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทเอกสารสำหรับเคลียร์ยอด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทเอกสารสำหรับเคลียร์ยอด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ใบแจ้งหนี้ผู้ขาย" neg-value="false" weight="1"/>
         <value name="เอกสารที่ไม่ใช่ใบแจ้งหนี้_ka" neg-value="false" weight="1"/>
         <value name="ไฟล์บัญชี_mxp" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับผิดชอบการเคลียร์ยอด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้รับผิดชอบการเคลียร์ยอด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ptp" neg-value="false" weight="1"/>
         <value name="rtr" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีเคลียร์ยอดผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีเคลียร์ยอดผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="เคลียร์ด้วยตนเอง" neg-value="false" weight="1"/>
         <value name="เคลียร์ยอดบัญชี_gl" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บัญชีสำหรับกระทบยอดกรณีไม่มีบัญชีผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บัญชีสำหรับกระทบยอดกรณีไม่มีบัญชีผู้ขาย" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="บัญชีแยกประเภทเป้าหมาย" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ข้อความรายการ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ข้อความรายการ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="หมวดหมู่ค่าใช้จ่าย" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="หลักฐานการใช้เงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="หลักฐานการใช้เงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ใบเสร็จรับเงิน" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การคืนเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="การคืนเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="คืนเงินให้แคชเชียร์" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการเงินสดที่คืน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการเงินสดที่คืน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="รายการรับเข้า" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้ที่มองเห็นข้อมูลการเบิกเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผู้ที่มองเห็นข้อมูลการเบิกเงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ผู้อนุมัติ" neg-value="false" weight="1"/>
         <value name="แคชเชียร์" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนเงินที่นำส่งในไฟล์บัญชี" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนเงินที่นำส่งในไฟล์บัญชี" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="จำนวนเงินที่มีใบเสร็จรองรับ" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="เกณฑ์ควบคุมการใช้เงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="เกณฑ์ควบคุมการใช้เงินสด" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="กำหนดเกณฑ์ในแอป_fiori" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ระบบตรวจสอบรายการ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ระบบตรวจสอบรายการ" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ตรวจสอบใน_s4hana" neg-value="false" weight="1"/>
         <requirement ID="Thai_3"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบแบบฟอร์ม_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบแบบฟอร์ม_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="เทมเพลตตามไฟล์กำหนดค่า_sap_core" neg-value="false" weight="1"/>
         <requirement ID="Thai_4"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="องค์ประกอบแบบฟอร์ม_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="องค์ประกอบแบบฟอร์ม_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="โลโก้" neg-value="false" weight="1"/>
         <value name="ข้อกำหนดและเงื่อนไข" neg-value="false" weight="1"/>
         <value name="ข้อความส่วนท้าย" neg-value="false" weight="1"/>
         <value name="ข้อความใบแจ้งหนี้ที่ส่ง" neg-value="false" weight="1"/>
         <requirement ID="Thai_4"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบผลลัพธ์_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบผลลัพธ์_po" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="อีเมล_และ_pdf" neg-value="false" weight="1"/>
         <requirement ID="Thai_4"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนประเภทภาษีในใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="จำนวนประเภทภาษีในใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ภาษีสองประเภทที่แตกต่างกัน" neg-value="false" weight="1"/>
         <requirement ID="Thai_5"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีจัดการยอดใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="วิธีจัดการยอดใบแจ้งหนี้" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="เพิ่มฟิลด์ภาษีหลายรายการใน_basware_หรือ_sap" neg-value="false" weight="1"/>
         <value name="ผู้ใช้_opcoปรับยอดใบแจ้งหนี้ด้วยตนเอง" neg-value="false" weight="1"/>
         <requirement ID="Thai_5"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบไฟล์การชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="รูปแบบไฟล์การชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="xml" neg-value="false" weight="1"/>
         <value name="mt101" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ธนาคารผู้รับไฟล์" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ธนาคารผู้รับไฟล์" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="bnp" neg-value="false" weight="1"/>
         <value name="citi_bank" neg-value="false" weight="1"/>
         <value name="commercial_international_bank" neg-value="false" weight="1"/>
@@ -229,54 +229,54 @@
         <value name="qnb" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_bnp" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_bnp" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="sepa" neg-value="false" weight="1"/>
         <value name="ไม่ใช่_sepa" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_citi_bank" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_citi_bank" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="การโอนเงินข้ามพรมแดน_574_cbft" neg-value="false" weight="1"/>
         <value name="การโอนเงินผ่านสมุดบัญชีอียิปต์_547" neg-value="false" weight="1"/>
         <value name="การโอนเงินภายในประเทศ_574_dft" neg-value="false" weight="1"/>
         <value name="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_commercial_international_bank" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_commercial_international_bank" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_credit_agricole" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_credit_agricole" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_emirates_nbd" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_emirates_nbd" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_qnb" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ประเภทรายการชำระเงินของ_qnb" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="การจ่ายเงินเดือน" neg-value="false" weight="1"/>
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผลการรับไฟล์การชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ผลการรับไฟล์การชำระเงิน" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
         <value name="ธนาคารยอมรับไฟล์การชำระเงิน" neg-value="false" weight="1"/>
         <requirement ID="Thai_6"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="อ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="อ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="ผ่าน_edicom" neg-value="false" weight="1"/>
         <value name="เชื่อมต่อโดยตรง_ไม่รองรับ" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บ_basware" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บ_basware" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="ไม่เกี่ยวข้อง" neg-value="false" weight="1"/>
         <value name="as2" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ท" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ท" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="eg" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ขาย" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ขาย" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="eg" neg-value="false" weight="1"/>
         <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="บันทึกยอดคงเหลือใหม่ไปยังบัญชีทางเทคนิค" neg-value="false" weight="1"/>
@@ -286,10 +286,10 @@
         <value name="ไม่มียอดคงเหลือในสกุลเงินเอกสาร" neg-value="false" weight="1"/>
         <value name="เคลียร์ด้วยตนเอง" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ง" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ง" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="ได้รับสิทธิ์จากรัฐบาล" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="น" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="น" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="usd" neg-value="false" weight="1"/>
         <value name="จำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="คัดลอกจำนวนเงินในสกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
@@ -309,11 +309,11 @@
         <value name="พนักงาน" neg-value="false" weight="1"/>
         <value name="egp" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="บ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="สกุลเงินท้องถิ่น" neg-value="false" weight="1"/>
         <value name="สกุลเงินต่างประเทศ" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นสด" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นสด" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="ขอเงินสดจากแคชเชียร์" neg-value="false" weight="1"/>
         <value name="ผู้ใช้ทางธุรกิจ" neg-value="false" weight="1"/>
         <value name="แอป_fiori" neg-value="false" weight="1"/>
@@ -327,49 +327,49 @@
         <value name="บัญชีพักสำหรับ_mxp" neg-value="false" weight="1"/>
         <value name="ผู้อนุมัติ" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ยอด" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ยอด" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="ใบแจ้งหนี้ผู้ขาย" neg-value="false" weight="1"/>
         <value name="rtr" neg-value="false" weight="1"/>
         <value name="ไฟล์บัญชี_mxp" neg-value="false" weight="1"/>
         <value name="ptp" neg-value="false" weight="1"/>
         <value name="เอกสารที่ไม่ใช่ใบแจ้งหนี้_ka" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="อความรายการ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="อความรายการ" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="หมวดหมู่ค่าใช้จ่าย" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ม_po" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="ม_po" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="เทมเพลตตามไฟล์กำหนดค่า_sap_core" neg-value="false" weight="1"/>
         <value name="ข้อกำหนดและเงื่อนไข" neg-value="false" weight="1"/>
         <value name="ข้อความส่วนท้าย" neg-value="false" weight="1"/>
         <value name="ข้อความใบแจ้งหนี้ที่ส่ง" neg-value="false" weight="1"/>
         <value name="โลโก้" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="_po" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="_po" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="อีเมล_และ_pdf" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_bnp" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_bnp" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="ไม่ใช่_sepa" neg-value="false" weight="1"/>
         <value name="sepa" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_citi_bank" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_citi_bank" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="การโอนเงินผ่านสมุดบัญชีอียิปต์_547" neg-value="false" weight="1"/>
         <value name="การโอนเงินข้ามพรมแดน_574_cbft" neg-value="false" weight="1"/>
         <value name="การโอนเงินภายในประเทศ_ach_ไม่ใช่_rtgs_555" neg-value="false" weight="1"/>
         <value name="การโอนเงินภายในประเทศ_574_dft" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_commercial_international_bank" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_commercial_international_bank" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_credit_agricole" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_credit_agricole" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_emirates_nbd" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_emirates_nbd" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การโอนเงินภาษี" neg-value="false" weight="1"/>
     </attribute>
-    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_qnb" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.1 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
+    <attribute attr_class="NONE" dependencies="false" description="" group="" iotype="NEITHER" name="นของ_qnb" parentDetailsApplicationName="Release2dot4_withoutTool" parentDetailsFunctionality="Test" parentDetailsModel="ThaiModelThai.model" parentDetailsModelTag="@Release2dot4_withoutTool @1.2 @Release2dot4_withoutTool_Test @GenAI_generated" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="devapriya.pal" poolId="" revision="" type="STRING">
         <value name="การโอนเงินภายในประเทศ" neg-value="false" weight="1"/>
         <value name="การจ่ายเงินเดือน" neg-value="false" weight="1"/>
     </attribute>
@@ -2683,7 +2683,76 @@
     <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername=""/>
     <deactivates/>
     <attrs-to-delete/>
-    <pool_comments/>
+    <pool_comments>
+        <pool_comment key="6224874f-e2e6-4840-9943-f6beeb9699b4" value="{&quot;name&quot;:&quot;บ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="e78ea592-5c9a-4282-9a5a-a99f9e286c48" value="{&quot;name&quot;:&quot;ช่องทางบันทึกรายการเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="8633be30-b9e7-4346-97a7-c4b5ab1f52dd" value="{&quot;name&quot;:&quot;ประเภทเอกสารสำหรับเคลียร์ยอด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="49d53593-7fca-48f1-bffa-e5f6ab172834" value="{&quot;name&quot;:&quot;ธนาคารผู้รับไฟล์&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="82993218-5886-4700-a837-154a0197dbb0" value="{&quot;name&quot;:&quot;สกุลเงินบัญชีธนาคารผู้ขาย&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="21a8452a-1dbb-47b2-aac4-202c51a81241" value="{&quot;name&quot;:&quot;ผู้รับผิดชอบการเคลียร์ยอด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="d2d3bbb3-501a-4f65-a356-8ab179b8a17c" value="{&quot;name&quot;:&quot;บัญชีสำหรับกระทบยอดกรณีไม่มีบัญชีผู้ขาย&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="0424c436-41a0-4d2f-9945-3821413743d3" value="{&quot;name&quot;:&quot;ประเภทรายการชำระเงินของ_commercial_international_bank&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="b46ec1b9-9873-47d1-8f16-dcfe602c6a0d" value="{&quot;name&quot;:&quot;นของ_qnb&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="4760815e-0cd1-45f2-a144-09c7ced043da" value="{&quot;name&quot;:&quot;รหัสบริษัท&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="a813bcfb-e35b-4853-9384-5c33d36038a3" value="{&quot;name&quot;:&quot;ท&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="d90e028d-8496-4e65-9d6f-381c13b644cf" value="{&quot;name&quot;:&quot;อความรายการ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="4e29755a-2566-4f87-9b51-c09684101fa6" value="{&quot;name&quot;:&quot;ระบบที่ใช้ชำระเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="901569ad-b900-4da0-8ed4-7d904c8c9472" value="{&quot;name&quot;:&quot;ประเภทรายการชำระเงินของ_citi_bank&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="86f8ef5d-719e-4247-a94e-2a8ffeb177ca" value="{&quot;name&quot;:&quot;ประเภทรายการชำระเงินของ_credit_agricole&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="7c5d74af-8503-48ce-85ef-484636801565" value="{&quot;name&quot;:&quot;หลักฐานการใช้เงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="d52e6849-15cb-487f-93ef-8f9ecbb50abf" value="{&quot;name&quot;:&quot;รูปแบบไฟล์การชำระเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="97ddc473-ac14-41ed-9ced-9d359ca056c1" value="{&quot;name&quot;:&quot;ขั้นตอนการขอเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="6864fdc2-3457-4676-b869-261cbb8dd6c0" value="{&quot;name&quot;:&quot;ขาย&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="f5c9b8ed-a05d-429e-987a-6e89cbcc343c" value="{&quot;name&quot;:&quot;ประเภทรายการชำระเงินของ_bnp&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="ec2a43b6-9309-4882-8c61-0b11cc20f800" value="{&quot;name&quot;:&quot;การคืนเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="3f221482-b7c4-469a-a700-6a288b13ccbf" value="{&quot;name&quot;:&quot;นของ_credit_agricole&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="68ffa862-014a-44bd-98fb-3f25f99183c6" value="{&quot;name&quot;:&quot;ผู้รับเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="7b486c90-387a-4128-ac2d-4451278a50c9" value="{&quot;name&quot;:&quot;ผู้ที่มองเห็นข้อมูลการเบิกเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="abe58690-1807-49da-a1dd-d89198438c30" value="{&quot;name&quot;:&quot;น&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="2af844b1-feea-49fd-b129-eff86ff382ac" value="{&quot;name&quot;:&quot;ข้อความรายการ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="872cbbf1-d2e9-4acf-91c3-0beda92d9cc0" value="{&quot;name&quot;:&quot;นสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="293d6367-d05a-4792-b55a-0555b6c64b81" value="{&quot;name&quot;:&quot;สกุลเงินที่ใช้หักบัญชีใบแจ้งหนี้&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="1186c299-6436-4200-8bd6-97f9471e46f6" value="{&quot;name&quot;:&quot;ประเภทรายการชำระเงินของ_qnb&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="edb12d65-b99d-4455-835f-d183c6bf0ba8" value="{&quot;name&quot;:&quot;นของ_emirates_nbd&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="747dc445-f5e6-49b7-a12a-6de984b8d5d8" value="{&quot;name&quot;:&quot;เส้นทางการเชื่อมต่อ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="0e78af1d-874e-472d-83ea-308cb300e3ae" value="{&quot;name&quot;:&quot;สถานะการอนุมัติ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="eabe13e0-9f59-434e-a60e-c726d9526ceb" value="{&quot;name&quot;:&quot;สกุลเงินที่ขอรับ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="3681fb8b-8d82-4abd-abfd-a084bd9da6d5" value="{&quot;name&quot;:&quot;ปลายทางเอกสาร&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="232efc1b-1177-466b-8ba7-4328b1d7d4d9" value="{&quot;name&quot;:&quot;รูปแบบแบบฟอร์ม_po&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="df647552-2445-4be6-9674-0aab29b039c0" value="{&quot;name&quot;:&quot;ง&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="b85a5669-33e1-46ac-a359-6471690e5c84" value="{&quot;name&quot;:&quot;วิธีเชื่อมต่อกับ_basware&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="8e72318a-81af-469f-b37e-f329193afda8" value="{&quot;name&quot;:&quot;ผู้รับผิดชอบการบันทึกรายการเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="55f886c7-7eb5-4831-b5f2-d2f413aea973" value="{&quot;name&quot;:&quot;ตัวกลางรับส่งใบแจ้งหนี้&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="0afaa5ae-27cf-4f76-8b35-1009d6c79f08" value="{&quot;name&quot;:&quot;จำนวนเงินที่นำส่งในไฟล์บัญชี&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="f6899769-c82c-4574-8acb-dd53a5f014f7" value="{&quot;name&quot;:&quot;องค์ประกอบแบบฟอร์ม_po&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="697fc046-4f9f-4560-a12f-665b670545bd" value="{&quot;name&quot;:&quot;สกุลเงินในใบแจ้งหนี้&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="a34e47c8-87d6-48f2-b0df-f4ff00fdf9f1" value="{&quot;name&quot;:&quot;ประเภทรายการชำระเงินของ_emirates_nbd&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="b92b8ef5-c2cf-43e9-b3dd-9dfe2aa600c4" value="{&quot;name&quot;:&quot;การจัดการช่องสกุลเงินการชำระเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="3767f99a-62f8-4d49-bd52-166771cb0966" value="{&quot;name&quot;:&quot;การจัดการยอดคงเหลือในบัญชีผู้ขาย&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="0d2204c2-7576-4ff4-af86-246b2045eea8" value="{&quot;name&quot;:&quot;บัญชีที่ใช้บันทึกรายการเงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="79f91fc2-150b-4d1d-99cf-d0e3085e085e" value="{&quot;name&quot;:&quot;สิทธิ์รับชำระเป็นสกุลเงินแข็ง&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="1d3d4e53-8b39-4682-a514-6be47dbe8a78" value="{&quot;name&quot;:&quot;นของ_commercial_international_bank&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="44d2bded-47a9-4bcd-a36b-111dbac595b6" value="{&quot;name&quot;:&quot;วิธีเคลียร์ยอดผู้ขาย&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="33642c39-17fb-41d3-b572-7eea31700e12" value="{&quot;name&quot;:&quot;แหล่งที่มาของใบแจ้งหนี้&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="ef121676-ba36-44c8-9207-2236e6ebeb3e" value="{&quot;name&quot;:&quot;สกุลเงินการชำระเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="f662d9d5-db6c-4849-a54d-8edf298ecd3a" value="{&quot;name&quot;:&quot;ระบบตรวจสอบรายการ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="e00a1730-0804-4f31-aa6e-6a4fe2937286" value="{&quot;name&quot;:&quot;วิธีจัดการยอดใบแจ้งหนี้&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="7377458c-3637-4922-a50c-ffa152860373" value="{&quot;name&quot;:&quot;ยอด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="80a56915-7a35-4caa-9f71-fac2c34fc0fa" value="{&quot;name&quot;:&quot;อ&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="d48820bd-f901-49cc-a0f2-4349da1f0316" value="{&quot;name&quot;:&quot;ม_po&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="18d500e8-f307-47ee-a96b-60780c3ad656" value="{&quot;name&quot;:&quot;ประเทศผู้ขาย&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="027e51ad-9326-4194-82d8-34c6c1b44be1" value="{&quot;name&quot;:&quot;ประเภทรายการเงินสดที่คืน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="52f3b6cb-53b4-41de-8b2a-a0491e26e0d4" value="{&quot;name&quot;:&quot;รูปแบบผลลัพธ์_po&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="71068970-190a-4abc-a4e9-0c2ece69142f" value="{&quot;name&quot;:&quot;ประเภทผู้รับเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="ec3f4b3b-9276-4102-8391-cbfd19816e2d" value="{&quot;name&quot;:&quot;บ_basware&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="2188f2b5-4099-471a-ab26-29095b6620b2" value="{&quot;name&quot;:&quot;จำนวนเงินการชำระเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="b6ba473c-4e32-4947-8282-034e01bd56a9" value="{&quot;name&quot;:&quot;จำนวนประเภทภาษีในใบแจ้งหนี้&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="bb1b7f80-1a12-4b9c-a4e3-a993e94d9810" value="{&quot;name&quot;:&quot;นของ_citi_bank&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="af5933cf-a045-45c2-ac3f-7c2dd8150ce8" value="{&quot;name&quot;:&quot;_po&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="8ad4873a-0330-4352-a30b-d58501c11b60" value="{&quot;name&quot;:&quot;ผลการรับไฟล์การชำระเงิน&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="134d133e-3639-4a7c-a74a-d219d5dcc364" value="{&quot;name&quot;:&quot;เกณฑ์ควบคุมการใช้เงินสด&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+        <pool_comment key="4b2d10d3-0602-430c-90bb-412ef67e434b" value="{&quot;name&quot;:&quot;นของ_bnp&quot;,&quot;version&quot;:&quot;1&quot;}"/>
+    </pool_comments>
     <db-dependencies/>
     <focus-ctd-model-sync>
         <focus-ctd-model-sync-mult/>
