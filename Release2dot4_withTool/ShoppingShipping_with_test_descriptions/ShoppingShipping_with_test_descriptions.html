@@ -1,0 +1,170 @@
+<html>
+    <body>
+        <h2>FoCuS Model</h2>
+        <table border="0">
+            <tr bgcolor="#9acd32">
+                <th>Attribute</th><th>Value</th><th>Description</th>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>ItemStockStatus</td><td></td><td>Combines two concepts: whether an item is valid, and whether a valid item is in stock.</td>
+            </tr>
+            <tr>
+                <td></td><td>validInStock</td><td>A valid item that is in stock</td>
+            </tr>
+            <tr>
+                <td></td><td>validOutOfStock</td><td>A valid item that is not in stock.</td>
+            </tr>
+            <tr>
+                <td></td><td>invalid</td><td>Item is not valid.</td>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>ItemIsExportControlled</td><td></td><td>True if item is subject to export regulations</td>
+            </tr>
+            <tr>
+                <td></td><td>true</td><td></td>
+            </tr>
+            <tr>
+                <td></td><td>false</td><td></td>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>OrderShippingDestination</td><td></td><td>Whether the item is shipping to a foreign country. Using a string instead of a boolean because I expect the values will change.</td>
+            </tr>
+            <tr>
+                <td></td><td>domestic</td><td>The order is shipping domestically.</td>
+            </tr>
+            <tr>
+                <td></td><td>foreign</td><td>The order is shipping to another country</td>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>OrderPricingScheme</td><td></td><td>Which pricing scheme is used for this order.</td>
+            </tr>
+            <tr>
+                <td></td><td>scheme1</td><td>Use pricing scheme 1.</td>
+            </tr>
+            <tr>
+                <td></td><td>scheme2</td><td>Use pricing scheme 2.</td>
+            </tr>
+            <tr>
+                <td></td><td>scheme3</td><td>Use pricing scheme 3.</td>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>OrderDeliveryTimeframe</td><td></td><td>What is the desired delivery timeframe?</td>
+            </tr>
+            <tr>
+                <td></td><td>immediate</td><td>Expedited delivery.</td>
+            </tr>
+            <tr>
+                <td></td><td>oneWeek</td><td>Delivery within one week.</td>
+            </tr>
+            <tr>
+                <td></td><td>oneMonth</td><td>Delivery within one month.</td>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>OrderShipping</td><td></td><td>User's selection for means of shipping.</td>
+            </tr>
+            <tr>
+                <td></td><td>ground</td><td>Ship by a ground carrier.</td>
+            </tr>
+            <tr>
+                <td></td><td>sea</td><td>Ship by sea carrier.</td>
+            </tr>
+            <tr>
+                <td></td><td>air</td><td>Ship by air carrier.</td>
+            </tr>
+            <tr bgcolor="#FBF5E6">
+                <td>CustomerCreditStatus</td><td></td><td>Result of customer credit check.</td>
+            </tr>
+            <tr>
+                <td></td><td>approved</td><td>Purchase payment was approved.</td>
+            </tr>
+            <tr>
+                <td></td><td>denied</td><td>Purchase payment was denied.</td>
+            </tr>
+            <tr>
+                <td></td><td>unknown</td><td>Error in payment validation is treated as denial.</td>
+            </tr>
+        </table>
+        <h2>Restrictions</h2>
+        <table border="1">
+            <tr bgcolor="#9acd32">
+                <th>Index</th><th>Name</th><th>Type</th><th>Expression</th>
+            </tr>
+            <tr>
+                <td>1</td><td>&nbsp;01 Mar 12 08:02:38 0</td><td>Exclusion</td><td>OrderDeliveryTimeframe.equals("immediate") &amp;&amp; OrderShipping.equals("sea")</td>
+            </tr>
+            <tr>
+                <td>2</td><td>&nbsp;01 Mar 12 08:02:46 0</td><td>Exclusion</td><td>OrderDeliveryTimeframe.equals("immediate") &amp;&amp; OrderShipping.equals("ground")</td>
+            </tr>
+            <tr>
+                <td>3</td><td>&nbsp;01 Mar 12 08:02:53 0</td><td>Exclusion</td><td>OrderDeliveryTimeframe.equals("oneWeek") &amp;&amp; OrderShipping.equals("sea")</td>
+            </tr>
+            <tr>
+                <td>4</td><td>&nbsp;01 Mar 12 08:03:01 0</td><td>Exclusion</td><td>OrderDeliveryTimeframe.equals("oneMonth") &amp;&amp; OrderShipping.equals("air")</td>
+            </tr>
+        </table>
+        <h2>Negative Combinations</h2>
+        <table border="0">
+            <tr bgcolor="#9acd32">
+                <th> Attribute </th><th> Value </th>
+            </tr>
+            <tr class="odd" style="background-color: #FBF5E6;">
+                <td>ItemStockStatus</td><td>validInStock</td>;&nbsp;<td>ItemIsExportControlled</td><td>true</td>;&nbsp;<td>OrderShippingDestination</td><td>domestic</td>;&nbsp;<td>OrderPricingScheme</td><td>scheme1</td>;&nbsp;<td>OrderDeliveryTimeframe</td><td>immediate</td>;&nbsp;<td>OrderShipping</td><td>air</td>;&nbsp;<td>CustomerCreditStatus</td><td>approved</td>
+            </tr>
+            <tr class="odd" style="background-color: 
+					&quot;white&quot;
+				;">
+                <td>ItemStockStatus</td><td>validInStock</td>;&nbsp;<td>ItemIsExportControlled</td><td>true</td>;&nbsp;<td>OrderShippingDestination</td><td>domestic</td>;&nbsp;<td>OrderPricingScheme</td><td>scheme1</td>;&nbsp;<td>OrderDeliveryTimeframe</td><td>immediate</td>;&nbsp;<td>OrderShipping</td><td>air</td>;&nbsp;<td>CustomerCreditStatus</td><td>denied</td>
+            </tr>
+        </table>
+        <h2>Test Descriptions</h2>
+        <table border="0">
+            <tr bgcolor="#9acd32">
+                <th>Trigger Name</th><th>Appliance</th><th>Trigger Type</th><th>Condition</th>
+            </tr>
+            <tr class="odd" style="background-color: #FBF5E6;">
+                <td>Fill in item details</td><td>ALWAYS</td><td>
+		       AND
+	  	    </td><td style="white-space: nowrap;"></td>
+            </tr>
+            <tr class="odd" style="background-color: 
+					&quot;white&quot;
+				;">
+                <td>Fill in shipment and pricing details</td><td>ALWAYS</td><td>
+		       AND
+	  	    </td><td style="white-space: nowrap;">ItemStockStatus&nbsp;
+			      !=
+      			  &nbsp;invalid
+                    <br>
+                </td>
+            </tr>
+            <tr class="odd" style="background-color: #FBF5E6;">
+                <td>unapproved credit card</td><td>FIRST_TEST</td><td>
+		       AND
+	  	    </td><td style="white-space: nowrap;">CustomerCreditStatus&nbsp;
+			      !=
+      			  &nbsp;approved
+                    <br>
+                    ItemStockStatus&nbsp;
+			      !=
+      			  &nbsp;invalid
+                    <br>
+                </td>
+            </tr>
+            <tr class="odd" style="background-color: 
+					&quot;white&quot;
+				;">
+                <td>verify success</td><td>ALWAYS</td><td>
+		       AND
+	  	    </td><td style="white-space: nowrap;">ItemStockStatus&nbsp;
+			      !=
+      			  &nbsp;invalid
+                    <br>
+                    CustomerCreditStatus&nbsp;
+			      ==
+      			  &nbsp;approved
+                    <br>
+                </td>
+            </tr>
+        </table>
+    </body>
+</html>

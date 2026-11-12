@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?xml-stylesheet type="text/xsl" href="models_style.xsl"?>
+<!DOCTYPE focus-model [
+]>
+<!--Demonstration application for shopping and shipping restrictions added--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+    <model-identification modelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg">
+        <model-identification-field name="Application Name" partOfTag="true" value="Release2dot4_withTool"/>
+        <model-identification-field name="Application code version #" partOfTag="true" value="1.3"/>
+        <model-identification-field name="Application Function" partOfTag="true" value="Release2dot4_withTool_Sample"/>
+        <model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+        <model-identification-field name="Created By" partOfTag="false" value="goutamrao@in.ibm.com"/>
+        <model-identification-field name="Created Date and Time" partOfTag="false" value="19 Jun 2019 14:28:53"/>
+        <model-identification-field name="Updated By" partOfTag="false" value="ankithap23"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="09 Nov 2026 05:23:32"/>
+        <model-identification-field name="Application Sub Function" partOfTag="true" value="TOReg"/>
+        <model-identification-field name="Test Stage" partOfTag="false" value=""/>
+        <model-identification-field name="Criticality" partOfTag="false" value=""/>
+        <model-identification-field name="Project" partOfTag="false" value=""/>
+        <model-identification-field name="Epic" partOfTag="false" value=""/>
+        <model-identification-field name="Feature" partOfTag="false" value=""/>
+        <model-identification-field name="User Story" partOfTag="false" value=""/>
+        <model-identification-field name="Git Comments" partOfTag="false" value=""/>
+        <model-identification-field name="Use attribute pool" partOfTag="false" value="false"/>
+    </model-identification>
+    <attribute attr_class="NONE" dependencies="false" description="Combines two concepts: whether an item is valid, and whether a valid item is in stock." group="" iotype="NEITHER" name="ItemStockStatus" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value description="A valid item that is in stock" name="validInStock" neg-value="false" weight="1"/>
+        <value description="A valid item that is not in stock." name="validOutOfStock" neg-value="false" weight="1"/>
+        <value description="Item is not valid." name="invalid" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="True if item is subject to export regulations" group="" iotype="NEITHER" name="ItemIsExportControlled" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="BOOLEAN">
+        <value name="true" neg-value="false" weight="1"/>
+        <value name="false" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="Whether the item is shipping to a foreign country. Using a string instead of a boolean because I expect the values will change." group="" iotype="NEITHER" name="OrderShippingDestination" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value description="The order is shipping domestically." name="domestic" neg-value="false" weight="1"/>
+        <value description="The order is shipping to another country" name="foreign" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="Which pricing scheme is used for this order." group="" iotype="NEITHER" name="OrderPricingScheme" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value description="Use pricing scheme 1." name="scheme1" neg-value="false" weight="1"/>
+        <value description="Use pricing scheme 2." name="scheme2" neg-value="false" weight="1"/>
+        <value description="Use pricing scheme 3." name="scheme3" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="What is the desired delivery timeframe?" group="" iotype="NEITHER" name="OrderDeliveryTimeframe" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value description="Expedited delivery." name="immediate" neg-value="false" weight="1"/>
+        <value description="Delivery within one week." name="oneWeek" neg-value="false" weight="1"/>
+        <value description="Delivery within one month." name="oneMonth" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="User's selection for means of shipping." group="" iotype="NEITHER" name="OrderShipping" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value description="Ship by a ground carrier." name="ground" neg-value="false" weight="1"/>
+        <value description="Ship by sea carrier." name="sea" neg-value="false" weight="1"/>
+        <value description="Ship by air carrier." name="air" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="Result of customer credit check." group="" iotype="NEITHER" name="CustomerCreditStatus" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value description="Purchase payment was approved." name="approved" neg-value="false" weight="1"/>
+        <value description="Purchase payment was denied." name="denied" neg-value="false" weight="1"/>
+        <value description="Error in payment validation is treated as denial." name="unknown" neg-value="false" weight="1"/>
+    </attribute>
+    <restriction expression="OrderDeliveryTimeframe.equals(&quot;immediate&quot;) &amp;&amp; OrderShipping.equals(&quot;sea&quot;)" group="" groupedExpression="OrderDeliveryTimeframe.equals(&quot;immediate&quot;) &amp;&amp; OrderShipping.equals(&quot;sea&quot;)" isActive="true" isAutoGenerated="false" name="01 Mar 12 08:02:38 0" type="Exclusion"/>
+    <restriction expression="OrderDeliveryTimeframe.equals(&quot;immediate&quot;) &amp;&amp; OrderShipping.equals(&quot;ground&quot;)" group="" groupedExpression="OrderDeliveryTimeframe.equals(&quot;immediate&quot;) &amp;&amp; OrderShipping.equals(&quot;ground&quot;)" isActive="true" isAutoGenerated="false" name="01 Mar 12 08:02:46 0" type="Exclusion"/>
+    <restriction expression="OrderDeliveryTimeframe.equals(&quot;oneWeek&quot;) &amp;&amp; OrderShipping.equals(&quot;sea&quot;)" group="" groupedExpression="OrderDeliveryTimeframe.equals(&quot;oneWeek&quot;) &amp;&amp; OrderShipping.equals(&quot;sea&quot;)" isActive="true" isAutoGenerated="false" name="01 Mar 12 08:02:53 0" type="Exclusion"/>
+    <restriction expression="OrderDeliveryTimeframe.equals(&quot;oneMonth&quot;) &amp;&amp; OrderShipping.equals(&quot;air&quot;)" group="" groupedExpression="OrderDeliveryTimeframe.equals(&quot;oneMonth&quot;) &amp;&amp; OrderShipping.equals(&quot;air&quot;)" isActive="true" isAutoGenerated="false" name="01 Mar 12 08:03:01 0" type="Exclusion"/>
+    <negative-combination>
+        <attr-value attribute="ItemStockStatus" value="validInStock"/>
+        <attr-value attribute="ItemIsExportControlled" value="true"/>
+        <attr-value attribute="OrderShippingDestination" value="domestic"/>
+        <attr-value attribute="OrderPricingScheme" value="scheme1"/>
+        <attr-value attribute="OrderDeliveryTimeframe" value="immediate"/>
+        <attr-value attribute="OrderShipping" value="air"/>
+        <attr-value attribute="CustomerCreditStatus" value="approved"/>
+    </negative-combination>
+    <negative-combination>
+        <attr-value attribute="ItemStockStatus" value="validInStock"/>
+        <attr-value attribute="ItemIsExportControlled" value="true"/>
+        <attr-value attribute="OrderShippingDestination" value="domestic"/>
+        <attr-value attribute="OrderPricingScheme" value="scheme1"/>
+        <attr-value attribute="OrderDeliveryTimeframe" value="immediate"/>
+        <attr-value attribute="OrderShipping" value="air"/>
+        <attr-value attribute="CustomerCreditStatus" value="denied"/>
+    </negative-combination>
+    <coverage-reqs-sets defaultCoverageRequirementsSet="every2">
+        <coverage-reqs-set description="" name="every2">
+            <coverage-req>
+                <attribute name="ItemStockStatus"/>
+                <attribute name="ItemIsExportControlled"/>
+                <attribute name="OrderShippingDestination"/>
+                <attribute name="OrderPricingScheme"/>
+                <attribute name="OrderDeliveryTimeframe"/>
+                <attribute name="OrderShipping"/>
+                <attribute name="CustomerCreditStatus"/>
+                <coverage-goal coverage-goal-val="2"/>
+            </coverage-req>
+        </coverage-reqs-set>
+    </coverage-reqs-sets>
+    <neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+        <coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet">
+            <coverage-req>
+                <coverage-goal coverage-goal-val="1"/>
+                <negative-attribute-combination>
+                    <attribute name="ItemStockStatus"/>
+                    <attribute name="ItemIsExportControlled"/>
+                    <attribute name="OrderShippingDestination"/>
+                    <attribute name="OrderPricingScheme"/>
+                    <attribute name="OrderDeliveryTimeframe"/>
+                    <attribute name="OrderShipping"/>
+                    <attribute name="CustomerCreditStatus"/>
+                </negative-attribute-combination>
+            </coverage-req>
+        </coverage-reqs-set>
+    </neg-coverage-reqs-sets>
+    <focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="true">
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Fill in item details" negative="false" suppressNewLine="false" triggerType="Test Description">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Fill in a new item with status &lt;att_name = ItemStockStatus&gt; and export control &lt;att_name = ItemIsExportControlled&gt;"/>
+            </focus-ctd-single-template>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Fill in shipment and pricing details" negative="false" suppressNewLine="false" triggerType="Test Description">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Fill in shipment details with destination &lt;att_name = OrderShippingDestination&gt;, shipping form &lt;att_name = OrderShipping&gt; and delivery timeframe &lt;att_name = OrderDeliveryTimeframe&gt;.&#13;&#10;Fill in pricing details with scheme &lt;att_name = OrderPricingScheme&gt; and credit status &lt;att_name = CustomerCreditStatus&gt;"/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="ItemStockStatus" operation="Doesn't Equal">
+                <focus-ctd-cond-val value="invalid"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="FIRST_TEST" is_or="false" name="unapproved credit card" negative="false" suppressNewLine="false" triggerType="Test Description">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Verify that an error message for a &lt;att_name = CustomerCreditStatus&gt; credit card status appears"/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="CustomerCreditStatus" operation="Doesn't Equal">
+                <focus-ctd-cond-val value="approved"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="ItemStockStatus" operation="Doesn't Equal">
+                <focus-ctd-cond-val value="invalid"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="verify success" negative="false" suppressNewLine="false" triggerType="Test Description">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Verify that the order was successfully handled"/>
+            </focus-ctd-single-template>
+            <focus-ctd-cond attribute="ItemStockStatus" operation="Doesn't Equal">
+                <focus-ctd-cond-val value="invalid"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="CustomerCreditStatus" operation="Equals">
+                <focus-ctd-cond-val value="approved"/>
+            </focus-ctd-cond>
+        </focus-ctd-trigger>
+    </focus-ctd-decoration>
+    <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+    <deactivates/>
+    <attrs-to-delete/>
+    <pool_comments/>
+    <db-dependencies/>
+    <focus-ctd-model-sync>
+        <focus-ctd-model-sync-mult/>
+        <focus-ctd-model-sync-na/>
+    </focus-ctd-model-sync>
+</focus-model>
