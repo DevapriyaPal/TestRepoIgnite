@@ -9,8 +9,8 @@
         <model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
         <model-identification-field name="Created By" partOfTag="false" value="sheetsin@in.ibm.com"/>
         <model-identification-field name="Created Date and Time" partOfTag="false" value="09 Aug 2019 16:06:18"/>
-        <model-identification-field name="Updated By" partOfTag="false" value="ankithap23"/>
-        <model-identification-field name="Updated Date and Time" partOfTag="false" value="12 Nov 2026 05:41:10"/>
+        <model-identification-field name="Updated By" partOfTag="false" value="igniteadmin"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="12 Nov 2026 05:43:53"/>
         <model-identification-field name="Application Sub Function" partOfTag="true" value="task"/>
         <model-identification-field name="Test Stage" partOfTag="false" value=""/>
         <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -268,4 +268,13 @@
     <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
     <focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
     <focus-ctd-decoration decorationName="Android-Hybrid" decorationType="cucumberDecoration" isActiveDecoration="false"/>
-    <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTe
+    <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername=""/>
+    <deactivates/>
+    <attrs-to-delete/>
+    <pool_comments/>
+    <db-dependencies/>
+    <focus-ctd-model-sync>
+        <focus-ctd-model-sync-mult/>
+        <focus-ctd-model-sync-na/>
+    </focus-ctd-model-sync>
+</focus-model>
