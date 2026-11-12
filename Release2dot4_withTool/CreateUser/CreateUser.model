@@ -10,7 +10,7 @@
         <model-identification-field name="Created By" partOfTag="false" value="sheetsin@in.ibm.com"/>
         <model-identification-field name="Created Date and Time" partOfTag="false" value="09 Aug 2019 16:06:18"/>
         <model-identification-field name="Updated By" partOfTag="false" value="igniteadmin"/>
-        <model-identification-field name="Updated Date and Time" partOfTag="false" value="12 Nov 2026 05:33:55"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="12 Nov 2026 05:39:01"/>
         <model-identification-field name="Application Sub Function" partOfTag="true" value="task"/>
         <model-identification-field name="Test Stage" partOfTag="false" value=""/>
         <model-identification-field name="Criticality" partOfTag="false" value=""/>
@@ -21,6 +21,7 @@
         <model-identification-field name="Git Comments" partOfTag="false" value=""/>
         <model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
     </model-identification>
+    <sub-model applicationname="Release2dot4_withTool" gituser="DevapriyaPal" modellocation="6fffe4be8adeb079f81c8d6f39970b4c92e62d6b" modelname="ShoppingShipping_with_test_descriptions" modeltag="@Release2dot4_withTool @1.3 @Release2dot4_withTool_Sample @TOReg"/>
     <attribute attr_class="NONE" dependencies="false" description="Imported from model Rel 5.4_IQP_Regression_Users: Imported from model Rel 5.4_IQP Regression" group="" iotype="NEITHER" name="UserRole" parentDetailsApplicationName="Release2dot4_withTool" parentDetailsFunctionality="Sample" parentDetailsModel="CreateUser.model" parentDetailsModelTag="@Release2dot4_withTool @5.10 @Release2dot4_withTool_Sample @task" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="ankithap23" poolId="" revision="" type="STRING">
         <value name="Admin" neg-value="false" weight="3">
             <requirement ID="Doc1.Req1"/>
