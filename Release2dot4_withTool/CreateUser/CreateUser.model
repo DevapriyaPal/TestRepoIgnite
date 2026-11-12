@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE focus-model [
+]>
+<!--test--><focus-model auxDataFilesFolder="" classifyAttributesEnabled="false" frea_ai_smart_comment="" inputOutput="false" manual="true">
+    <model-identification modelTag="@Release2dot4_withTool @5.10 @Release2dot4_withTool_Sample @task">
+        <model-identification-field name="Application Name" partOfTag="true" value="Release2dot4_withTool"/>
+        <model-identification-field name="Application code version #" partOfTag="true" value="5.10"/>
+        <model-identification-field name="Application Function" partOfTag="true" value="Release2dot4_withTool_Sample"/>
+        <model-identification-field name="Updated Reason" partOfTag="false" value="New Model"/>
+        <model-identification-field name="Created By" partOfTag="false" value="sheetsin@in.ibm.com"/>
+        <model-identification-field name="Created Date and Time" partOfTag="false" value="09 Aug 2019 16:06:18"/>
+        <model-identification-field name="Updated By" partOfTag="false" value="ankithap23"/>
+        <model-identification-field name="Updated Date and Time" partOfTag="false" value="12 Nov 2026 05:27:33"/>
+        <model-identification-field name="Application Sub Function" partOfTag="true" value="task"/>
+        <model-identification-field name="Test Stage" partOfTag="false" value=""/>
+        <model-identification-field name="Criticality" partOfTag="false" value=""/>
+        <model-identification-field name="Project" partOfTag="false" value=""/>
+        <model-identification-field name="Epic" partOfTag="false" value=""/>
+        <model-identification-field name="Feature" partOfTag="false" value=""/>
+        <model-identification-field name="User Story" partOfTag="false" value=""/>
+        <model-identification-field name="Git Comments" partOfTag="false" value=""/>
+        <model-identification-field name="Use attribute pool" partOfTag="false" value="true"/>
+    </model-identification>
+    <attribute attr_class="NONE" dependencies="false" description="Imported from model Rel 5.4_IQP_Regression_Users: Imported from model Rel 5.4_IQP Regression" group="" iotype="NEITHER" name="UserRole" parentDetailsApplicationName="Release2dot4_withTool" parentDetailsFunctionality="Sample" parentDetailsModel="CreateUser.model" parentDetailsModelTag="@Release2dot4_withTool @5.10 @Release2dot4_withTool_Sample @task" parentDetailsPortfolio="Regression" parentDetailsTenantId="Sample" parentDetailsUsername="ankithap23" poolId="" revision="" type="STRING">
+        <value name="Admin" neg-value="false" weight="3">
+            <requirement ID="Doc1.Req1"/>
+        </value>
+        <value name="QA" neg-value="false" weight="1"/>
+        <value name="Test Manager" neg-value="false" weight="1"/>
+        <value name="Test Lead" neg-value="false" weight="1"/>
+        <value name="Defect Manager" neg-value="false" weight="1"/>
+        <requirement ID="Doc1.Req1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="Imported from model Rel 5.4_IQP_Regression_Users: Imported from model Rel 5.4_IQP Regression" group="" iotype="NEITHER" name="AddUser" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @5.10 @Release2dot4_withTool_Sample @task" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="UserName" neg-value="false" weight="1"/>
+        <value name="UserEmail" neg-value="false" weight="1"/>
+        <value name="UserID" neg-value="false" weight="1"/>
+        <value name="Portfolio" neg-value="false" weight="1"/>
+        <value name="SearchApplication" neg-value="false" weight="1"/>
+        <value name="SelectApplication" neg-value="false" weight="1"/>
+        <value name="AddUpdateToolAccess" neg-value="false" weight="1"/>
+        <value name="CreateUser" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="Imported from model Rel 5.4_IQP_Regression_Users: Imported from model Rel 5.4_IQP Regression" group="" iotype="NEITHER" name="EditUser" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @5.10 @Release2dot4_withTool_Sample @task" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="SearchUser" neg-value="false" weight="1"/>
+        <value name="SelectUser" neg-value="false" weight="1"/>
+        <value name="EditDetails" neg-value="false" weight="1"/>
+        <value name="SearchApplication" neg-value="false" weight="1"/>
+        <value name="SelectApplication" neg-value="false" weight="1"/>
+        <value name="AddUpdateToolAccess" neg-value="false" weight="1"/>
+        <value name="UpdateUser" neg-value="false" weight="1"/>
+    </attribute>
+    <attribute attr_class="NONE" dependencies="false" description="Imported from model Rel 5.4_IQP_Regression_Users: Imported from model Rel 5.4_IQP Regression" group="" iotype="NEITHER" name="DeleteUser" parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="@Release2dot4_withTool @5.10 @Release2dot4_withTool_Sample @task" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername="" poolId="" revision="" type="STRING">
+        <value name="SearchUser" neg-value="false" weight="1"/>
+        <value name="SelectUser" neg-value="false" weight="1"/>
+        <value name="DeleteUser" neg-value="false" weight="1"/>
+        <value name="MsgBoxYesButton" neg-value="false" weight="1"/>
+        <value name="MsgBoxCancelButton" neg-value="false" weight="1"/>
+    </attribute>
+    <restriction expression="!(UserRole.equals(&quot;Test Manager&quot;)) || UserRole.equals(&quot;QA&quot;)" group="" groupedExpression="!(UserRole.equals(&quot;Test Manager&quot;)) || UserRole.equals(&quot;QA&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+        <requirement ID="Doc1.Req1"/>
+        <if-expr is_or="false">
+            <focus-ctd-cond attribute="UserRole" operation="Equals">
+                <focus-ctd-cond-val value="Test Manager"/>
+            </focus-ctd-cond>
+        </if-expr>
+        <then-expr is_or="false">
+            <focus-ctd-cond attribute="UserRole" operation="Equals">
+                <focus-ctd-cond-val value="QA"/>
+            </focus-ctd-cond>
+        </then-expr>
+    </restriction>
+    <restriction expression="!(EditUser.equals(&quot;SelectUser&quot;) &amp;&amp; !EditUser.startsWith(&quot;EditDetails&quot;)) || UserRole.equals(&quot;Admin&quot;) || !DeleteUser.contains(&quot;MsgBoxYesButton&quot;)" group="" groupedExpression="!(EditUser.equals(&quot;SelectUser&quot;) &amp;&amp; !EditUser.startsWith(&quot;EditDetails&quot;)) || UserRole.equals(&quot;Admin&quot;) || !DeleteUser.contains(&quot;MsgBoxYesButton&quot;)" iff="false" isActive="true" isAutoGenerated="false" name="" type="If-Then">
+        <requirement ID="Doc1.Req1"/>
+        <if-expr is_or="false">
+            <focus-ctd-cond attribute="EditUser" operation="Equals">
+                <focus-ctd-cond-val value="SelectUser"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="EditUser" operation="Doesn't Start With">
+                <focus-ctd-cond-val value="EditDetails"/>
+            </focus-ctd-cond>
+        </if-expr>
+        <then-expr is_or="true">
+            <focus-ctd-cond attribute="UserRole" operation="Equals">
+                <focus-ctd-cond-val value="Admin"/>
+            </focus-ctd-cond>
+            <focus-ctd-cond attribute="DeleteUser" operation="Doesn't Contain">
+                <focus-ctd-cond-val value="MsgBoxYesButton"/>
+            </focus-ctd-cond>
+        </then-expr>
+    </restriction>
+    <restriction expression="UserRole.equals(&quot;Admin&quot;) &amp;&amp; EditUser.equals(&quot;SearchUser&quot;)" group="G1" groupedExpression="UserRole.equals(&quot;Admin&quot;) &amp;&amp; EditUser.equals(&quot;SearchUser&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion">
+        <requirement ID="Doc1.Req1"/>
+    </restriction>
+    <restriction expression="UserRole.equals(&quot;Admin&quot;) &amp;&amp; EditUser.equals(&quot;SearchUser&quot;)" group="G1" groupedExpression="UserRole.equals(&quot;Admin&quot;) &amp;&amp; EditUser.equals(&quot;SearchUser&quot;)" isActive="true" isAutoGenerated="false" name="" type="Exclusion">
+        <requirement ID="Doc1.Req1"/>
+    </restriction>
+    <restriction expression="OrderDeliveryTimeframe.equals(&quot;one week&quot;) &amp;&amp; OrderShipping.equals(&quot;sea&quot;)" group="" groupedExpression="OrderDeliveryTimeframe.equals(&quot;one week&quot;) &amp;&amp; OrderShipping.equals(&quot;sea&quot;)" isActive="false" isAutoGenerated="false" name="01-03-2012 08:02" type="Exclusion"/>
+    <dont-care>
+        <attr-value attribute="UserRole" value="Admin"/>
+        <attr-value attribute="AddUser" value="UserName"/>
+        <attr-value attribute="EditUser" value="SearchUser"/>
+        <attr-value attribute="DeleteUser" value="SearchUser"/>
+    </dont-care>
+    <negative-combination>
+        <attr-value attribute="UserRole" value="Admin"/>
+        <attr-value attribute="AddUser" value="UserName"/>
+        <attr-value attribute="EditUser" value="SelectUser"/>
+        <attr-value attribute="DeleteUser" value="MsgBoxYesButton"/>
+    </negative-combination>
+    <negative-combination>
+        <attr-value attribute="UserRole" value="Admin"/>
+        <attr-value attribute="AddUser" value="UserName"/>
+        <attr-value attribute="EditUser" value="SelectUser"/>
+        <attr-value attribute="DeleteUser" value="SearchUser"/>
+    </negative-combination>
+    <negative-combination>
+        <attr-value attribute="UserRole" value="Admin"/>
+        <attr-value attribute="AddUser" value="UserName"/>
+        <attr-value attribute="EditUser" value="SelectUser"/>
+        <attr-value attribute="DeleteUser" value="SelectUser"/>
+    </negative-combination>
+    <requirements-tracking-combination>
+        <attr-value attribute="UserRole" value="Admin"/>
+        <requirement ID="Doc1.Req1"/>
+    </requirements-tracking-combination>
+    <requirements-tracking-combination>
+        <attr-value attribute="UserRole" value="Admin"/>
+        <attr-value attribute="AddUser" value="UserName"/>
+        <attr-value attribute="EditUser" value="SelectUser"/>
+        <attr-value attribute="DeleteUser" value="SearchUser"/>
+        <requirement ID="Doc1.Req1"/>
+    </requirements-tracking-combination>
+    <requirements-collection>
+        <requirement-node Ambiguity="" Complexity="Simple" DocumentName="Doc1" Keywords="" Ranking="0" RequirementDescription="" RequirementId="Req1" Restrictions=""/>
+    </requirements-collection>
+    <coverage-reqs-sets defaultCoverageRequirementsSet="">
+        <coverage-reqs-set description="Imported from Rel 5.4_IQP_Regression_Users: Imported from Rel 5.4_IQP Regression" name="IQP Regression_1_1">
+            <coverage-req>
+                <attribute name="UserRole"/>
+                <attribute name="AddUser"/>
+                <attribute name="EditUser"/>
+                <attribute name="DeleteUser"/>
+                <coverage-goal coverage-goal-val="2"/>
+            </coverage-req>
+        </coverage-reqs-set>
+    </coverage-reqs-sets>
+    <neg-coverage-reqs-sets defaultCoverageRequirementsSet="SingleNegativeCoverageRequirementsSet" isAutoNegCoverageRequirements="true">
+        <coverage-reqs-set description="" name="SingleNegativeCoverageRequirementsSet">
+            <coverage-req>
+                <coverage-goal coverage-goal-val="1"/>
+                <negative-attribute-combination>
+                    <attribute name="UserRole"/>
+                    <attribute name="AddUser"/>
+                    <attribute name="EditUser"/>
+                    <attribute name="DeleteUser"/>
+                </negative-attribute-combination>
+            </coverage-req>
+        </coverage-reqs-set>
+    </neg-coverage-reqs-sets>
+    <focus-ctd-decoration decorationName="Android-Native" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="Web" decorationType="cucumberDecoration" isActiveDecoration="true">
+        <focus-ctd-trigger appliance="FIRST_TEST" is_or="false" name="UserMenu" negative="false" suppressNewLine="false" triggerType="Feature">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Validate Users Menu"/>
+            </focus-ctd-single-template>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="To validate user menu." negative="false" suppressNewLine="false" triggerType="Scenario">
+            <focus-ctd-single-template>
+                <focus-ctd-template text="Scenario to validate users menu from IQP main menu&lt;test_number&gt;"/>
+            </focus-ctd-single-template>
+        </focus-ctd-trigger>
+        <focus-ctd-trigger appliance="ALWAYS" is_or="false" name="Steps to validate users menu" negative="false" suppressNewLine="false" triggerType="Steps">
+            <focus-ctd-cucumber-steps-template>
+                <cucumber-step actionName="navigateTo" additionalInfo="" category="NavigationalCategory" stepType="Given">
+                    <focus-ctd-template text="I navigate to &quot;(URL)&quot;"/>
+                    <actionParameter data="&quot;(URL)&quot;" dataSource="ExternalData"/>
+                </cucumber-step>
+                <cucumber-step actionName="populateTextField" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I enter into input field &quot;[Username]&quot; the value &quot;(Username)&quot;"/>
+                    <actionParameter data="&quot;[Username]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;(Username)&quot;" dataSource="ExternalData"/>
+                </cucumber-step>
+                <cucumber-step actionName="populateTextField" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I enter into input field &quot;[Password]&quot; the value &quot;(Password)&quot;"/>
+                    <actionParameter data="&quot;[Password]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;(Password)&quot;" dataSource="ExternalData"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickButton" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[SignIn]&quot; button"/>
+                    <actionParameter data="&quot;[SignIn]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="captureScreenshot" additionalInfo="" category="CaptureScreenShotCategory" stepType="And">
+                    <focus-ctd-template text="I take screenshot"/>
+                </cucumber-step>
+                <cucumber-step actionName="addWaitSeconds" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I add wait seconds of &quot;20&quot;"/>
+                    <actionParameter data="&quot;20&quot;" dataSource="Literal"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickLink" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[Menu Bar]&quot; link"/>
+                    <actionParameter data="&quot;[Menu Bar]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickButton" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[UsersMenu]&quot; button"/>
+                    <actionParameter data="&quot;[UsersMenu]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickButton" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[AddNewUser]&quot; button"/>
+                    <actionParameter data="&quot;[AddNewUser]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="populateTextField" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I enter into input field &quot;[UserName]&quot; the value &quot;(UserNameToCreate)&quot;"/>
+                    <actionParameter data="&quot;[UserName]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;(UserNameToCreate)&quot;" dataSource="ExternalData"/>
+                </cucumber-step>
+                <cucumber-step actionName="populateTextField" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I enter into input field &quot;[EmailID]&quot; the value &quot;(EmailIDToCreate)&quot;"/>
+                    <actionParameter data="&quot;[EmailID]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;(EmailIDToCreate)&quot;" dataSource="ExternalData"/>
+                </cucumber-step>
+                <cucumber-step actionName="populateTextField" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I enter into input field &quot;[UserID]&quot; the value &quot;(UserIDToCreate)&quot;"/>
+                    <actionParameter data="&quot;[UserID]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;(UserIDToCreate)&quot;" dataSource="ExternalData"/>
+                </cucumber-step>
+                <cucumber-step actionName="selectCheckBox" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I check the checkbox &quot;[Admin]&quot;"/>
+                    <actionParameter data="&quot;[Admin]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="selectDropDownByPosition" additionalInfo="" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I select from dropdown &quot;[Portfolio]&quot; the item &quot;62&quot;"/>
+                    <actionParameter data="&quot;[Portfolio]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;62&quot;" dataSource="Literal"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickButton" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[Next]&quot; button"/>
+                    <actionParameter data="&quot;[Next]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="continueExecution" additionalInfo="" category="CommonValidationCategory" stepType="And">
+                    <focus-ctd-template text="I continue execution on failure of following step"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickButton" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[CreateUser]&quot; button"/>
+                    <actionParameter data="&quot;[CreateUser]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="captureNewScreenshot" additionalInfo="" category="CaptureScreenShotCategory" stepType="And">
+                    <focus-ctd-template text="I capture screenshot"/>
+                </cucumber-step>
+                <cucumber-step actionName="clickButton" additionalInfo="" category="ElementClickCategory" stepType="And">
+                    <focus-ctd-template text="I click on &quot;[sdfs]&quot; button"/>
+                    <actionParameter data="&quot;[sdfs]&quot;" dataSource="UIControl"/>
+                </cucumber-step>
+                <cucumber-step actionName="populateTextField" additionalInfo="~tg~" category="InputTypeCategory" stepType="And">
+                    <focus-ctd-template text="I enter into input field &quot;[hfgh]&quot; the value &quot;jfjfjfj&quot;"/>
+                    <actionParameter data="&quot;[hfgh]&quot;" dataSource="UIControl"/>
+                    <actionParameter data="&quot;jfjfjfj&quot;" dataSource="Literal"/>
+                </cucumber-step>
+            </focus-ctd-cucumber-steps-template>
+        </focus-ctd-trigger>
+    </focus-ctd-decoration>
+    <focus-ctd-decoration decorationName="iOS-Hybrid" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="iOS-Native" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultTestCaseNameDecoration" decorationType="testCaseName" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultFreeStyleDecoration" decorationType="freeStyle" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="Mobile-Web" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
+    <focus-ctd-decoration decorationName="Android-Hybrid" decorationType="cucumberDecoration" isActiveDecoration="false"/>
+    <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername=""/>
+    <deactivates/>
+    <attrs-to-delete/>
+    <pool_comments/>
+    <db-dependencies/>
+    <focus-ctd-model-sync>
+        <focus-ctd-model-sync-mult/>
+        <focus-ctd-model-sync-na/>
+    </focus-ctd-model-sync>
+</focus-model>
