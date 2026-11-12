@@ -268,13 +268,4 @@
     <focus-ctd-decoration decorationName="DefaultCucumberDecoration" decorationType="cucumberDecoration" isActiveDecoration="false"/>
     <focus-ctd-decoration decorationName="DefaultStructuredDecoration" decorationType="structuredDecoration" isActiveDecoration="false"/>
     <focus-ctd-decoration decorationName="Android-Hybrid" decorationType="cucumberDecoration" isActiveDecoration="false"/>
-    <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTenantId="" parentDetailsUsername=""/>
-    <deactivates/>
-    <attrs-to-delete/>
-    <pool_comments/>
-    <db-dependencies/>
-    <focus-ctd-model-sync>
-        <focus-ctd-model-sync-mult/>
-        <focus-ctd-model-sync-na/>
-    </focus-ctd-model-sync>
-</focus-model>
+    <defaultParentDetails parentDetailsApplicationName="" parentDetailsFunctionality="" parentDetailsModel="" parentDetailsModelTag="" parentDetailsPortfolio="" parentDetailsTe
